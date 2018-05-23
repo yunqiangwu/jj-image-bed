@@ -1,0 +1,1182 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true
+    },
+    "security": {
+      "domainWhiteList": [
+        "http://localhost:9000",
+        "http://127.0.0.1:9000",
+        "http://192.168.1.101:9000",
+        "http://localhost:9001",
+        "http://127.0.0.1:9001",
+        "http://192.168.1.101:9001",
+        "http://localhost:9002",
+        "http://127.0.0.1:9002",
+        "http://192.168.1.101:9002"
+      ],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": {
+        "enable": false,
+        "useSession": false,
+        "ignoreJSON": false,
+        "cookieName": "csrfToken",
+        "sessionName": "csrfToken",
+        "headerName": "x-csrf-token",
+        "bodyName": "_csrf",
+        "queryName": "_csrf"
+      },
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true
+      },
+      "methodnoallow": {
+        "enable": true
+      },
+      "noopen": {
+        "enable": true
+      },
+      "nosniff": {
+        "enable": true
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      }
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieMaxAge": "1y"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "multipart": {
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null
+    },
+    "development": {
+      "watchDirs": [
+        "build"
+      ],
+      "ignoreDirs": [
+        "app/web",
+        "public",
+        "config"
+      ],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/wuyun/work/test/test-egg-react2/logs/test-egg-react2/egg-schedule.log"
+      }
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/wuyun/work/test/test-egg-react2/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000,
+      "maxAge": 0
+    },
+    "view": {
+      "root": "/Users/wuyun/work/test/test-egg-react2/app/view",
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {
+        ".js": "react",
+        ".jsx": "react"
+      }
+    },
+    "reactssr": {
+      "doctype": "<!doctype html>",
+      "layout": "/Users/wuyun/work/test/test-egg-react2/app/view/layout.js",
+      "manifest": "/Users/wuyun/work/test/test-egg-react2/config/manifest.json",
+      "injectHeadRegex": "/(<\\/head>)/i",
+      "injectBodyRegex": "/(<\\/body>)/i",
+      "injectCss": true,
+      "injectJs": true,
+      "crossorigin": false,
+      "injectRes": [],
+      "fallbackToClient": true,
+      "afterRender": "<Function afterRender>"
+    },
+    "cors": {},
+    "webpack": {
+      "port": 9000,
+      "proxy": true,
+      "proxyMapping": {
+        "js": "text/javascript; charset=UTF-8",
+        "css": "text/css; charset=UTF-8",
+        "json": "application/json; charset=UTF-8",
+        "html": "text/html; charset=UTF-8",
+        "map": "application/json; charset=UTF-8"
+      },
+      "webpackConfigList": [
+        {
+          "context": "/Users/wuyun/work/test/test-egg-react2",
+          "entry": {
+            "redux": [
+              "react-hot-loader/patch",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
+              "/Users/wuyun/work/test/test-egg-react2/app/web/page/redux/redux.jsx"
+            ],
+            "client": [
+              "react-hot-loader/patch",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
+              "/Users/wuyun/work/test/test-egg-react2/app/web/page/client/client.jsx"
+            ],
+            "ssr": [
+              "react-hot-loader/patch",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
+              "/Users/wuyun/work/test/test-egg-react2/app/web/page/ssr/ssr.jsx"
+            ],
+            "layout": [
+              "react-hot-loader/patch",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
+              "/Users/wuyun/work/test/test-egg-react2/app/web/framework/layout/layout.jsx"
+            ]
+          },
+          "output": {
+            "filename": "js/[name].js",
+            "chunkFilename": "js/chunk/[name].js",
+            "path": "/Users/wuyun/work/test/test-egg-react2/public",
+            "publicPath": "http://192.168.1.101:9000/public/"
+          },
+          "resolve": {
+            "extensions": [
+              ".js",
+              ".jsx"
+            ],
+            "alias": {
+              "asset": "/Users/wuyun/work/test/test-egg-react2/app/web/asset",
+              "component": "/Users/wuyun/work/test/test-egg-react2/app/web/component",
+              "framework": "/Users/wuyun/work/test/test-egg-react2/app/web/framework",
+              "store": "/Users/wuyun/work/test/test-egg-react2/app/web/store"
+            }
+          },
+          "externals": [],
+          "resolveLoader": {
+            "modules": [
+              "/Users/wuyun/work/test/test-egg-react2/node_modules",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/node_modules",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack-react/node_modules"
+            ]
+          },
+          "target": "web",
+          "module": {
+            "rules": [
+              {
+                "test": {},
+                "exclude": {},
+                "use": [
+                  {
+                    "loader": "babel-loader",
+                    "options": {}
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "eslint-loader",
+                    "options": {}
+                  }
+                ],
+                "exclude": {},
+                "enforce": "pre"
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "/Users/wuyun/work/test/test-egg-react2/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "options": {
+                      "omit": 1,
+                      "remove": true
+                    }
+                  },
+                  {
+                    "loader": "style-loader"
+                  },
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "minimize": false
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "/Users/wuyun/work/test/test-egg-react2/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "options": {
+                      "omit": 1,
+                      "remove": true
+                    }
+                  },
+                  {
+                    "loader": "style-loader"
+                  },
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "minimize": false
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "sass-loader",
+                    "options": {}
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "/Users/wuyun/work/test/test-egg-react2/node_modules/extract-text-webpack-plugin/dist/loader.js",
+                    "options": {
+                      "omit": 1,
+                      "remove": true
+                    }
+                  },
+                  {
+                    "loader": "style-loader"
+                  },
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "minimize": false
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "sass-loader",
+                    "options": {
+                      "indentedSyntax": true
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "img/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "media/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "font/[name].[ext]"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "plugins": [
+            {
+              "__plugin__": "NoEmitOnErrorsPlugin",
+              "__lable__": "error"
+            },
+            {
+              "definitions": {},
+              "__plugin__": "ProvidePlugin",
+              "__lable__": "provide"
+            },
+            {
+              "options": {},
+              "__plugin__": "NamedModulesPlugin",
+              "__lable__": "nameModule"
+            },
+            {
+              "definitions": {
+                "process.env.NODE_ENV": "\"development\"",
+                "EASY_ENV": "\"dev\"",
+                "EASY_ENV_IS_DEV": true,
+                "EASY_ENV_IS_TEST": false,
+                "EASY_ENV_IS_PROD": false,
+                "EASY_ENV_IS_BROWSER": true,
+                "EASY_ENV_IS_NODE": false,
+                "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_PUBLIC_PATH": "\"http://192.168.1.101:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://192.168.1.101:9000\""
+              },
+              "__plugin__": "DefinePlugin",
+              "__lable__": "define"
+            },
+            {
+              "chunkNames": [
+                "common"
+              ],
+              "selectedChunks": [
+                "redux",
+                "client",
+                "ssr",
+                "layout"
+              ],
+              "ident": "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack/lib/optimize/CommonsChunkPlugin.js1",
+              "__plugin__": "CommonsChunkPlugin",
+              "__lable__": "commonsChunk"
+            },
+            {
+              "options": {},
+              "fullBuildTimeout": 200,
+              "requestTimeout": 10000,
+              "__plugin__": "HotModuleReplacementPlugin",
+              "__lable__": "hot"
+            },
+            {
+              "opts": {
+                "basePath": "",
+                "absPath": "",
+                "fileName": "../config/manifest.json",
+                "commonsChunk": [
+                  "runtime",
+                  "common"
+                ],
+                "transformExtensions": {},
+                "asset": true,
+                "writeToFileEmit": true,
+                "seed": null,
+                "filter": null,
+                "map": null,
+                "generate": null,
+                "sort": null,
+                "baseDir": "/Users/wuyun/work/test/test-egg-react2",
+                "host": "http://192.168.1.101:9000",
+                "proxy": true,
+                "buildPath": "/Users/wuyun/work/test/test-egg-react2/public",
+                "publicPath": "http://192.168.1.101:9000/public/",
+                "localPublicPath": "/public/",
+                "assets": false,
+                "filepath": "/Users/wuyun/work/test/test-egg-react2/config/manifest.json",
+                "dllConfig": [
+                  {
+                    "name": "vendor",
+                    "lib": [
+                      "react",
+                      "react-dom"
+                    ]
+                  }
+                ],
+                "dllDir": "/var/folders/k5/n1xp34qj5vsbx0z6q3xphfdh0000gn/T/easywebpack/test-egg-react2/dev"
+              },
+              "__plugin__": "webpack-manifest-resource-plugin",
+              "__lable__": "manifest"
+            },
+            {
+              "__plugin__": "progress-bar-webpack-plugin",
+              "__lable__": "progress"
+            },
+            {
+              "__plugin__": "directory-named-webpack-plugin",
+              "__lable__": "directoryname"
+            },
+            {
+              "filename": "css/[name].css",
+              "id": 2,
+              "options": {
+                "allChunks": true
+              },
+              "__plugin__": "extract-text-webpack-plugin",
+              "__lable__": "extract"
+            },
+            {
+              "options": {
+                "context": "/Users/wuyun/work/test/test-egg-react2",
+                "manifest": {
+                  "name": "vendor",
+                  "content": {
+                    "./node_modules/fbjs/lib/shallowEqual.js": {
+                      "id": "./node_modules/fbjs/lib/shallowEqual.js",
+                      "meta": {}
+                    },
+                    "./node_modules/react-dom/index.js": {
+                      "id": "./node_modules/react-dom/index.js",
+                      "meta": {}
+                    },
+                    "./node_modules/react-dom/cjs/react-dom.development.js": {
+                      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/invariant.js": {
+                      "id": "./node_modules/fbjs/lib/invariant.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/warning.js": {
+                      "id": "./node_modules/fbjs/lib/warning.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/ExecutionEnvironment.js": {
+                      "id": "./node_modules/fbjs/lib/ExecutionEnvironment.js",
+                      "meta": {}
+                    },
+                    "./node_modules/object-assign/index.js": {
+                      "id": "./node_modules/object-assign/index.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/emptyFunction.js": {
+                      "id": "./node_modules/fbjs/lib/emptyFunction.js",
+                      "meta": {}
+                    },
+                    "./node_modules/prop-types/checkPropTypes.js": {
+                      "id": "./node_modules/prop-types/checkPropTypes.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/getActiveElement.js": {
+                      "id": "./node_modules/fbjs/lib/getActiveElement.js",
+                      "meta": {}
+                    },
+                    "./node_modules/react/index.js": {
+                      "id": "./node_modules/react/index.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/containsNode.js": {
+                      "id": "./node_modules/fbjs/lib/containsNode.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/emptyObject.js": {
+                      "id": "./node_modules/fbjs/lib/emptyObject.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/hyphenateStyleName.js": {
+                      "id": "./node_modules/fbjs/lib/hyphenateStyleName.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/camelizeStyleName.js": {
+                      "id": "./node_modules/fbjs/lib/camelizeStyleName.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/camelize.js": {
+                      "id": "./node_modules/fbjs/lib/camelize.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/hyphenate.js": {
+                      "id": "./node_modules/fbjs/lib/hyphenate.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/isTextNode.js": {
+                      "id": "./node_modules/fbjs/lib/isTextNode.js",
+                      "meta": {}
+                    },
+                    "./node_modules/fbjs/lib/isNode.js": {
+                      "id": "./node_modules/fbjs/lib/isNode.js",
+                      "meta": {}
+                    },
+                    "./node_modules/prop-types/lib/ReactPropTypesSecret.js": {
+                      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+                      "meta": {}
+                    },
+                    "./node_modules/react/cjs/react.development.js": {
+                      "id": "./node_modules/react/cjs/react.development.js",
+                      "meta": {}
+                    }
+                  }
+                }
+              },
+              "__plugin__": "DllReferencePlugin",
+              "__lable__": "vendorDllReference"
+            }
+          ]
+        },
+        {
+          "context": "/Users/wuyun/work/test/test-egg-react2",
+          "entry": {
+            "redux": "/Users/wuyun/work/test/test-egg-react2/app/web/page/redux/redux.jsx",
+            "client": "/Users/wuyun/work/test/test-egg-react2/app/web/page/client/client.jsx",
+            "ssr": "/Users/wuyun/work/test/test-egg-react2/app/web/page/ssr/ssr.jsx",
+            "layout": "/Users/wuyun/work/test/test-egg-react2/app/web/framework/layout/layout.jsx"
+          },
+          "output": {
+            "libraryTarget": "commonjs2",
+            "filename": "[name].js",
+            "path": "/Users/wuyun/work/test/test-egg-react2/app/view",
+            "publicPath": "http://192.168.1.101:9000/public/"
+          },
+          "resolve": {
+            "extensions": [
+              ".js",
+              ".jsx"
+            ],
+            "alias": {
+              "asset": "/Users/wuyun/work/test/test-egg-react2/app/web/asset",
+              "component": "/Users/wuyun/work/test/test-egg-react2/app/web/component",
+              "framework": "/Users/wuyun/work/test/test-egg-react2/app/web/framework",
+              "store": "/Users/wuyun/work/test/test-egg-react2/app/web/store"
+            }
+          },
+          "externals": [
+            null
+          ],
+          "resolveLoader": {
+            "modules": [
+              "/Users/wuyun/work/test/test-egg-react2/node_modules",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/node_modules",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack-react/node_modules"
+            ]
+          },
+          "target": "node",
+          "node": {
+            "__filename": false,
+            "__dirname": false
+          },
+          "module": {
+            "rules": [
+              {
+                "test": {},
+                "exclude": {},
+                "use": [
+                  {
+                    "loader": "babel-loader",
+                    "options": {}
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "eslint-loader",
+                    "options": {}
+                  }
+                ],
+                "exclude": {},
+                "enforce": "pre"
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "isomorphic-style-loader"
+                  },
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "minimize": false
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  "~config~webpack~webpackConfigList~1~module~rules~2~use~0",
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "minimize": false
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "sass-loader",
+                    "options": {}
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  "~config~webpack~webpackConfigList~1~module~rules~2~use~0",
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "minimize": false
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "sass-loader",
+                    "options": {
+                      "indentedSyntax": true
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "img/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "media/[name].[ext]"
+                    }
+                  }
+                ]
+              },
+              {
+                "test": {},
+                "use": [
+                  {
+                    "loader": "url-loader",
+                    "options": {
+                      "limit": 1024,
+                      "name": "font/[name].[ext]"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "plugins": [
+            {
+              "__plugin__": "NoEmitOnErrorsPlugin",
+              "__lable__": "error"
+            },
+            {
+              "definitions": {},
+              "__plugin__": "ProvidePlugin",
+              "__lable__": "provide"
+            },
+            {
+              "definitions": {
+                "process.env.NODE_ENV": "\"development\"",
+                "EASY_ENV": "\"dev\"",
+                "EASY_ENV_IS_DEV": true,
+                "EASY_ENV_IS_TEST": false,
+                "EASY_ENV_IS_PROD": false,
+                "EASY_ENV_IS_BROWSER": false,
+                "EASY_ENV_IS_NODE": true,
+                "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
+                "EASY_ENV_PUBLIC_PATH": "\"http://192.168.1.101:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://192.168.1.101:9000\""
+              },
+              "__plugin__": "DefinePlugin",
+              "__lable__": "define"
+            },
+            {
+              "__plugin__": "progress-bar-webpack-plugin",
+              "__lable__": "progress"
+            },
+            {
+              "__plugin__": "directory-named-webpack-plugin",
+              "__lable__": "directoryname"
+            },
+            {
+              "resourceRegExp": {},
+              "newResource": "/Users/wuyun/work/test/test-egg-react2/node_modules/node-noop/index.js",
+              "__plugin__": "NormalModuleReplacementPlugin",
+              "__lable__": "modulereplacement"
+            },
+            {
+              "resourceRegExp": {},
+              "__plugin__": "IgnorePlugin",
+              "__lable__": "ignore"
+            }
+          ]
+        }
+      ]
+    },
+    "webpackreact": {},
+    "env": "local",
+    "name": "test-egg-react2",
+    "keys": "<String len: 6>",
+    "proxy": false,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "test-egg-react2",
+      "version": "1.0.1",
+      "description": "基于 easywebpack-react 和 egg-view-react-ssr 插件单页面服务端渲染工程骨架项目",
+      "scripts": {
+        "build": "cross-env easywebpack build prod",
+        "build:test": "cross-env easywebpack build test",
+        "build:prod": "cross-env easywebpack build prod",
+        "start": "node index.js",
+        "start:test": "cross-env EGG_SERVER_ENV=test node index.js",
+        "start:prod": "cross-env EGG_SERVER_ENV=prod node index.js",
+        "kill-port": "kill -9 $(lsof -i:8888 |grep 'node'|aw '{print $2}') ",
+        "lint": "eslint .",
+        "fix": "eslint --fix .",
+        "ii": "npm install --registry https://registry.npm.taobao.org",
+        "test": "cross-env mocha -t 10000 test"
+      },
+      "dependencies": {
+        "antd": "^3.0.3",
+        "cross-env": "^5.0.0",
+        "egg": "^2.1.0",
+        "egg-cors": "^2.0.0",
+        "egg-logger": "^1.5.0",
+        "egg-validate": "^1.0.0",
+        "egg-view-react-ssr": "^2.1.0",
+        "extend": "\\x7e3.0.0",
+        "history": "^4.7.2",
+        "lodash": "^4.17.4",
+        "mockjs": "^1.0.1-beta3",
+        "moment": "^2.17.1",
+        "node-localstorage": "^1.3.1",
+        "qiniu": "^7.1.7",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-redux": "^5.0.6",
+        "react-router": "^4.2.0",
+        "react-router-config": "^1.0.0-beta.4",
+        "react-router-dom": "^4.2.2",
+        "react-router-redux": "^4.0.8",
+        "redux": "^3.7.2"
+      },
+      "devDependencies": {
+        "autod-egg": "^1.0.0",
+        "autoprefixer": "^7.1.4",
+        "babel-cli": "^6.26.0",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-import": "^1.4.0",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-assign": "^6.22.0",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-react": "^6.24.1",
+        "easywebpack-cli": "^3.5.0",
+        "easywebpack-react": "^3.6.0",
+        "egg-webpack": "^3.2.4",
+        "egg-webpack-react": "^2.0.0",
+        "eslint-config-egg": "^5.1.1",
+        "eslint-plugin-react": "^7.1.0",
+        "imagemin-webpack-plugin": "^1.5.2",
+        "ip": "^1.1.5",
+        "mocha": "^5.2.0",
+        "uglifyjs-webpack-plugin": "^1.1.2"
+      },
+      "engines": {
+        "node": ">=6.0.0"
+      },
+      "ci": {
+        "version": "6, 8, 9"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hubcarl/egg-react-webpack-boilerplate.git"
+      },
+      "author": "hubcarl@126.com",
+      "license": "MIT",
+      "homepage": "https://github.com/hubcarl/egg-react-webpack-boilerplate"
+    },
+    "baseDir": "/Users/wuyun/work/test/test-egg-react2",
+    "HOME": "/Users/wuyun",
+    "rundir": "/Users/wuyun/work/test/test-egg-react2/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 4286>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "100kb",
+      "jsonLimit": "100kb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      }
+    },
+    "logger": {
+      "dir": "/Users/wuyun/work/test/test-egg-react2/logs",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "INFO",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": false,
+      "buffer": true,
+      "appLogName": "test-egg-react2-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": true,
+      "type": "agent"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheMaxLength": 1000,
+      "dnsCacheMaxAge": 10000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketKeepAliveTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "bodyParser",
+      "overrideMethod"
+    ],
+    "workerStartTimeout": 600000,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "middleware": [
+      "access"
+    ],
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware"
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security",
+      "version": "2.2.2"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-onerror",
+      "version": "2.0.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-i18n",
+      "version": "2.0.0"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-watcher",
+      "version": "3.0.0"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-multipart",
+      "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-development",
+      "version": "2.2.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-schedule",
+      "version": "3.3.0"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator",
+      "version": "3.0.3"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-static",
+      "version": "2.1.1"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view",
+      "version": "2.1.0"
+    },
+    "reactssr": {
+      "enable": true,
+      "package": "egg-view-react-ssr",
+      "name": "reactssr",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/config/plugin.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr",
+      "version": "2.2.4"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/wuyun/work/test/test-egg-react2/config/plugin.local.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-cors",
+      "version": "2.0.0"
+    },
+    "webpack": {
+      "enable": true,
+      "package": "egg-webpack",
+      "name": "webpack",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/wuyun/work/test/test-egg-react2/config/plugin.local.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-webpack",
+      "version": "3.3.6"
+    },
+    "webpackreact": {
+      "enable": true,
+      "package": "egg-webpack-react",
+      "name": "webpackreact",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/wuyun/work/test/test-egg-react2/config/plugin.local.js",
+      "path": "/Users/wuyun/work/test/test-egg-react2/node_modules/egg-webpack-react",
+      "version": "2.0.2"
+    }
+  }
+}

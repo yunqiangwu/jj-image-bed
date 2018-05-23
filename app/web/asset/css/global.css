@@ -1,0 +1,75 @@
+@import "./normalize.css";
+@import "./bootstrap.css";
+@import "./app.css";
+
+.redux-nav{
+  margin-left: 40px;
+}
+
+.redux-nav li{
+  float:left;
+  background-color: #1CB94A;
+  color: white;
+}
+
+.redux-nav li a{
+  color: white;
+}
+
+.redux-nav-item{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.redux-btn-add{
+  background-color: #1CB94A;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+  vertical-align: middle;
+}
+
+.redux-btn-del{
+  background-color: #cd2a19;
+  color: white;
+  display: block;
+  width: 60px;
+  line-height: 30px;
+  height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.spa-title{
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.smart-artiles {
+  /* display: flex; */
+  text-align: justify;
+  justify-content: space-between;
+  -moz-column-count: 2;
+  -moz-column-rule: 1px solid #c4c8cc;
+  -webkit-column-count: 2;
+  -webkit-column-rule: 1px solid #c4c8cc;
+}
+
+.img-box {
+
+  padding: 8px;
+  /* margin: 16px auto; */
+  /* width: 400px; */
+  border: 1px solid #aaa;
+
+}
+
+.img-box img {
+  text-align: center;
+  /* width: 300px; */
+  margin: 0 50px;
+}

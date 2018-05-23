@@ -1,0 +1,445 @@
+2018-05-23 15:05:19,918 ERROR 81049 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-05-23 16:13:39,448 ERROR 81339 [-/::1/-/363ms GET /ssr] nodejs.TypeError: Cannot read property 'length' of undefined
+    at Home.render (evalmachine.<anonymous>:634:21)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2191:18)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 81339
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-23 16:14:26,979 ERROR 81341 [-/::1/-/268ms GET /ssr] nodejs.TypeError: Cannot read property 'length' of undefined
+    at Home.render (evalmachine.<anonymous>:634:21)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2191:18)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 81341
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 00:59:55,709 ERROR 97434 [-/192.168.1.101/-/5ms GET /ssr] nodejs.Error: read webpack memory file[/Users/wuyun/work/test/test-egg-react2/app/view/ssr.js] content is empty, please check if the file exists
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/egg-webpack-react/app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/wuyun/work/test/test-egg-react2/node_modules/co/index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 97434
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 01:38:25,447 ERROR 98445 [-/192.168.1.101/-/268ms GET /ssr] nodejs.TypeError: Cannot read property 'inject' of undefined
+    at app.react.render.then.html (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:38:38)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 98445
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 02:07:24,027 ERROR 99045 [-/::1/-/6ms GET /api/jjtc/validate-config] nodejs.Error: 参数错误
+    at Object.app.context.onerror (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-onerror/index.js:34:24)
+    at onerror (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/application.js:147:32)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 99045
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 02:07:27,509 ERROR 99045 [-/::1/-/0ms GET /api/jjtc/validate-config] nodejs.Error: 参数错误
+    at Object.app.context.onerror (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-onerror/index.js:34:24)
+    at onerror (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/application.js:147:32)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 99045
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:28:37,761 ERROR 1286 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-05-24 03:37:25,050 ERROR 1459 [-/::1/-/8ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1459
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:39:50,897 ERROR 1513 [-/::1/-/24ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1513
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:40:55,966 ERROR 1512 [-/::1/-/23ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1512
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:42:03,673 ERROR 1574 [-/::1/-/16ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1574
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:43:23,691 ERROR 1591 [-/::1/-/16ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1591
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:43:46,349 ERROR 1595 [-/::1/-/23ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1595
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:44:03,230 ERROR 1591 [-/::1/-/2ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1591
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:44:57,182 ERROR 1595 [-/::1/-/3ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1595
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:45:01,916 ERROR 1595 [-/::1/-/2ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1595
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:45:16,146 ERROR 1593 [-/::1/-/13ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:45:19,616 ERROR 1593 [-/::1/-/1ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:46:44,235 ERROR 1657 [-/::1/-/24ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1657
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:05:18,293 ERROR 2024 [-/::1/-/13ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 2024
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:05:38,732 ERROR 2023 [-/::1/-/17ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 2023
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:06:12,604 ERROR 2050 [-/::1/-/24ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 2050
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:06:16,344 ERROR 2050 [-/::1/-/1ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 2050
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:06:40,757 ERROR 2075 [-/::1/-/127ms GET /api/jjtc/get-config] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at SPAController.getConfig (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:45:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2075
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:02:30,095 ERROR 3284 [-/::1/-/216ms GET /ssr/setting] nodejs.ReferenceError: fetch is not defined
+    at new App (evalmachine.<anonymous>:1055:5)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2082:14)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3284
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:05:01,721 ERROR 3368 [-/::1/-/214ms GET /ssr/setting] nodejs.ReferenceError: window is not defined
+    at new App (evalmachine.<anonymous>:1055:5)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2082:14)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 3368
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:05:38,809 ERROR 4407 [-/::1/-/13ms POST /api/jjtc/upload] nodejs.ReferenceError: qiniuHelper is not defined
+    at SPAController.uploadFile (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:60:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 4407
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:09:59,970 ERROR 4610 [-/::1/-/6ms GET /api/jjtc/list-file] nodejs.TypeError: qiniuHelper.listFile is not a function
+    at SPAController.listFile (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:70:38)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 4610
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:52:36,898 ERROR 4897 [-/::1/-/455ms GET /ssr] nodejs.ReferenceError: localStorage is not defined
+    at getConfig (evalmachine.<anonymous>:1686:13)
+    at new Home (evalmachine.<anonymous>:681:95)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2082:14)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+
+pid: 4897
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:52:39,113 ERROR 4897 [-/::1/-/21ms GET /ssr] nodejs.ReferenceError: localStorage is not defined
+    at getConfig (evalmachine.<anonymous>:1686:13)
+    at new Home (evalmachine.<anonymous>:681:95)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2082:14)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+
+pid: 4897
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:53:00,888 ERROR 4895 [-/::1/-/285ms GET /ssr] nodejs.ReferenceError: localStorage is not defined
+    at getConfig (evalmachine.<anonymous>:1686:13)
+    at new Home (evalmachine.<anonymous>:681:95)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2082:14)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+
+pid: 4895
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:53:21,052 ERROR 5193 [-/192.168.1.101/-/239ms GET /ssr] nodejs.ReferenceError: localStorage is not defined
+    at getConfig (evalmachine.<anonymous>:938:13)
+    at new Home (evalmachine.<anonymous>:694:95)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2082:14)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+    at <anonymous>
+
+pid: 5193
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:55:12,008 ERROR 5196 [-/::1/-/239ms GET /ssr] nodejs.TypeError: Cannot read property 'fileList' of undefined
+    at Object.getItem (evalmachine.<anonymous>:940:21)
+    at getConfig (evalmachine.<anonymous>:950:26)
+    at new Home (evalmachine.<anonymous>:694:95)
+    at processChild (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2082:14)
+    at resolve (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2048:5)
+    at ReactDOMServerRenderer.render (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2333:22)
+    at ReactDOMServerRenderer.read (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2307:19)
+    at Object.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/react-dom/cjs/react-dom-server.node.development.js:2679:25)
+    at Engine.renderToString (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:62:27)
+    at reactElement.then.element (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-view-react-ssr/lib/engine.js:50:19)
+
+pid: 5196
+hostname: wuyundeMacBook-Pro.local
+

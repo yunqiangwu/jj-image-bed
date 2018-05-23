@@ -1,0 +1,70 @@
+{
+  "ssr.js": "/public/js/ssr.js",
+  "ssr.css": "/public/css/ssr.css",
+  "redux.js": "/public/js/redux.js",
+  "redux.css": "/public/css/redux.css",
+  "client.js": "/public/js/client.js",
+  "client.css": "/public/css/client.css",
+  "layout.js": "/public/js/layout.js",
+  "common.js": "/public/js/common.js",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "ssr.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/ssr.js"
+      ],
+      "css": [
+        "/public/css/ssr.css"
+      ]
+    },
+    "redux.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/redux.js"
+      ],
+      "css": [
+        "/public/css/redux.css"
+      ]
+    },
+    "client.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/client.js"
+      ],
+      "css": [
+        "/public/css/client.css"
+      ]
+    },
+    "layout.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/common.js",
+        "/public/js/layout.js"
+      ],
+      "css": []
+    },
+    "common.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/common.js"
+      ],
+      "css": []
+    },
+    "vendor.js": {
+      "js": [
+        "/public/js/common.js",
+        "/public/js/vendor.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "public",
+    "mapped": true
+  }
+}

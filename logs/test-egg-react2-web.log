@@ -1,0 +1,888 @@
+2018-05-23 13:36:18,993 INFO 79454 [-/10.211.98.105/-/13ms GET /] [access] 10.211.98.105: - GET / HTTP/302 39 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:19,307 INFO 79454 [-/10.211.98.105/-/265ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 - 264 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:26,048 INFO 79458 [-/10.211.98.105/-/19ms GET /redux] [access] 10.211.98.105: - GET /redux HTTP/200 668 http://10.211.98.105:7001/ssr 13 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:27,964 INFO 79461 [-/10.211.98.105/-/17ms GET /redux] [access] 10.211.98.105: - GET /redux HTTP/200 668 http://10.211.98.105:7001/redux 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:29,922 INFO 79461 [-/10.211.98.105/-/141ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/redux 140 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:31,187 INFO 79458 [-/10.211.98.105/-/5ms GET /redux] [access] 10.211.98.105: - GET /redux HTTP/200 668 http://10.211.98.105:7001/ssr 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:32,320 INFO 79458 [-/10.211.98.105/-/138ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/redux 137 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:33,094 INFO 79458 [-/10.211.98.105/-/2ms GET /redux] [access] 10.211.98.105: - GET /redux HTTP/200 668 http://10.211.98.105:7001/ssr 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:34,032 INFO 79458 [-/10.211.98.105/-/15ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/redux 14 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:34,849 INFO 79458 [-/10.211.98.105/-/2ms GET /redux] [access] 10.211.98.105: - GET /redux HTTP/200 668 http://10.211.98.105:7001/ssr 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:36,249 INFO 79455 [-/10.211.98.105/-/159ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/redux 157 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:41,739 INFO 79454 [-/10.211.98.105/-/4ms GET /redux] [access] 10.211.98.105: - GET /redux HTTP/200 668 http://10.211.98.105:7001/ssr/about 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:47,121 INFO 79457 [-/10.211.98.105/-/175ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/redux 170 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:36:49,966 INFO 79455 [-/10.211.98.105/-/23ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/ssr/about 22 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 13:45:47,561 INFO 79461 [-/10.211.98.105/-/115ms GET /client] [access] 10.211.98.105: - GET /client HTTP/200 670 http://10.211.98.105:7001/ssr 84 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:07:27,506 INFO 79459 [-/::1/-/103ms GET /] [access] ::1: - GET / HTTP/302 39 - 30 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:07:27,963 INFO 79459 [-/::1/-/439ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3818 - 438 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:07:33,548 INFO 79455 [-/::1/-/0ms GET /test] [access] ::1: - GET /test HTTP/404 - - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:15:16,394 INFO 79454 [-/::1/-/2ms GET /test] [access] ::1: - GET /test HTTP/404 - - 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:15:20,625 INFO 79454 [-/::1/-/1ms GET /] [access] ::1: - GET / HTTP/302 39 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:15:20,676 INFO 79454 [-/::1/-/39ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3818 - 39 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:15:29,736 INFO 79458 [-/::1/-/5ms GET /] [access] ::1: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:15:29,775 INFO 79458 [-/::1/-/29ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3818 - 29 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:31:53,021 INFO 79454 [-/10.211.98.105/-/85ms GET /client/about] [access] 10.211.98.105: - GET /client/about HTTP/200 670 - 48 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:31:56,074 INFO 79459 [-/10.211.98.105/-/15ms GET /client] [access] 10.211.98.105: - GET /client HTTP/200 670 http://10.211.98.105:7001/client/ 12 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:31:57,397 INFO 79459 [-/10.211.98.105/-/5ms GET /redux] [access] 10.211.98.105: - GET /redux HTTP/200 668 http://10.211.98.105:7001/client 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:31:59,704 INFO 79460 [-/10.211.98.105/-/341ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/redux 334 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:32:00,081 INFO 79459 [-/10.211.98.105/-/20ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/ssr 19 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:32:00,694 INFO 79459 [-/10.211.98.105/-/13ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/ssr 11 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:32:03,914 INFO 79459 [-/10.211.98.105/-/15ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3818 http://10.211.98.105:7001/ssr 14 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:36:57,337 INFO 80156 [-/::1/-/10ms GET /] [access] ::1: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:36:57,612 INFO 80156 [-/::1/-/268ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3818 - 268 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:39:45,395 INFO 80522 [-/10.211.98.105/-/11ms GET /] [access] 10.211.98.105: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:39:45,614 INFO 80522 [-/10.211.98.105/-/183ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3502 - 183 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:39:55,432 INFO 80524 [-/::1/-/145ms GET /ssr/about] [access] ::1: - GET /ssr/about HTTP/200 1769 - 138 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:40:50,421 INFO 80563 [-/10.211.98.105/-/10ms GET /] [access] 10.211.98.105: - GET / HTTP/302 39 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:40:50,689 INFO 80563 [-/10.211.98.105/-/204ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3502 - 203 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 14:40:52,730 INFO 80562 [-/::1/-/153ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3502 http://localhost:7001/ssr 149 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:40:54,633 INFO 80561 [-/::1/-/155ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3502 http://localhost:7001/ssr 152 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:40:56,931 INFO 80562 [-/::1/-/14ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3502 http://localhost:7001/ssr 14 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:42:23,147 INFO 80560 [-/::1/-/271ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 3502 http://localhost:7001/ssr 267 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 14:44:07,321 INFO 80558 [-/10.211.98.105/-/181ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3502 - 177 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 15:05:19,095 INFO 81045 [-/10.211.98.105/-/10ms GET /] [access] 10.211.98.105: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 15:05:19,351 INFO 81045 [-/10.211.98.105/-/211ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 3502 - 210 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 15:24:03,520 INFO 81047 [-/::1/-/368ms GET /ssr/about] [access] ::1: - GET /ssr/about HTTP/200 1700 - 351 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 16:17:42,538 INFO 81337 [-/::1/-/185ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1216 - 181 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 16:18:55,398 INFO 81336 [-/::1/-/174ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1216 - 170 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 16:35:49,399 INFO 81337 [-/::1/-/69ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1323 - 68 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 16:39:49,569 INFO 81336 [-/::1/-/82ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1409 - 81 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 16:42:11,739 INFO 81340 [-/::1/-/395ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1409 - 391 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 19:28:43,211 INFO 84593 [-/::1/-/350ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1409 - 343 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-23 19:53:49,042 INFO 85750 [-/10.211.98.105/-/9ms GET /] [access] 10.211.98.105: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 19:53:49,362 INFO 85750 [-/10.211.98.105/-/219ms GET /ssr] [access] 10.211.98.105: - GET /ssr HTTP/200 1439 - 219 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-23 19:53:55,586 INFO 85753 [-/::1/-/203ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1439 - 196 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 00:59:55,632 INFO 97434 [-/192.168.1.101/-/9ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 01:02:53,912 INFO 97435 [-/::1/-/8ms GET /] [access] ::1: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 01:02:54,221 INFO 97435 [-/::1/-/304ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1462 - 303 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 01:20:08,831 INFO 98267 [-/192.168.1.101/-/13ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 01:20:09,191 INFO 98267 [-/192.168.1.101/-/302ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 301 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 01:22:13,119 INFO 98266 [-/::1/-/263ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 2735 - 256 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 01:33:24,984 INFO 98351 [-/::1/-/394ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 2978 - 387 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 01:38:25,094 INFO 98445 [-/192.168.1.101/-/11ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 01:50:56,713 INFO 98686 [-/::1/-/9ms GET /api/jjtc/validateConfig] [access] ::1: - GET /api/jjtc/validateConfig HTTP/404 - - 2 - PostmanRuntime/7.1.1
+2018-05-24 01:51:40,376 INFO 98721 [-/::1/-/6ms GET /api/jjtc/validateConfig] [access] ::1: - GET /api/jjtc/validateConfig HTTP/404 - - 1 - PostmanRuntime/7.1.1
+2018-05-24 01:54:54,149 INFO 98816 [-/192.168.1.101/-/11ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 01:54:54,505 INFO 98816 [-/192.168.1.101/-/294ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 293 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 01:54:59,173 INFO 98819 [-/::1/-/6ms GET /api/jjtc/validateConfig] [access] ::1: - GET /api/jjtc/validateConfig HTTP/404 - - 1 - PostmanRuntime/7.1.1
+2018-05-24 01:56:18,520 INFO 98845 [-/::1/-/6ms GET /api/jjtc/validateConfig] [access] ::1: - GET /api/jjtc/validateConfig HTTP/404 - - 0 - PostmanRuntime/7.1.1
+2018-05-24 01:56:49,669 INFO 98873 [-/::1/-/231ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 2978 - 225 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 01:57:05,112 INFO 98874 [-/::1/-/6ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 9 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 01:57:06,924 INFO 98874 [-/::1/-/1ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 9 - 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 01:57:14,185 INFO 98875 [-/::1/-/3ms GET /api/jjtc/validateConfig] [access] ::1: - GET /api/jjtc/validateConfig HTTP/404 - - 1 - PostmanRuntime/7.1.1
+2018-05-24 01:57:15,287 INFO 98875 [-/::1/-/0ms GET /api/jjtc/validateConfig] [access] ::1: - GET /api/jjtc/validateConfig HTTP/404 - - 0 - PostmanRuntime/7.1.1
+2018-05-24 01:57:44,847 INFO 98878 [-/::1/-/6ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 9 - 2 - PostmanRuntime/7.1.1
+2018-05-24 02:06:51,749 INFO 99017 [-/192.168.1.101/-/10ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 02:06:52,118 INFO 99017 [-/192.168.1.101/-/301ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 299 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 02:06:59,873 INFO 99020 [-/::1/-/7ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 2 - 2 - PostmanRuntime/7.1.1
+2018-05-24 02:07:07,114 INFO 99022 [-/::1/-/7ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 2 - 2 - PostmanRuntime/7.1.1
+2018-05-24 02:08:05,810 INFO 99083 [-/::1/-/9ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 17 - 2 - PostmanRuntime/7.1.1
+2018-05-24 02:08:07,765 INFO 99083 [-/::1/-/1ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 17 - 1 - PostmanRuntime/7.1.1
+2018-05-24 02:08:30,190 INFO 99098 [-/::1/-/10ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 42 - 2 - PostmanRuntime/7.1.1
+2018-05-24 03:28:36,470 INFO 1289 [-/192.168.1.101/-/10ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:28:36,785 INFO 1289 [-/192.168.1.101/-/307ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 307 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:28:37,209 INFO 1290 [-/::1/-/9ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 42 http://localhost:7001/api/jjtc/validate-config 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 03:28:42,008 INFO 1290 [-/::1/-/262ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4011 - 261 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 03:29:55,941 INFO 1288 [-/::1/-/442ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4131 - 438 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 03:37:21,966 INFO 1459 [-/::1/-/6ms GET /api/jjtc/validate-config] [access] ::1: - GET /api/jjtc/validate-config HTTP/200 42 - 2 - PostmanRuntime/7.1.1
+2018-05-24 03:42:02,992 INFO 1575 [-/::1/-/389ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4131 - 381 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 03:44:02,582 INFO 1594 [-/::1/-/301ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4131 - 295 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 03:45:01,311 INFO 1593 [-/::1/-/306ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4131 - 299 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 03:45:19,036 INFO 1591 [-/::1/-/287ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4131 - 286 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 03:47:39,532 WARN 1654 [-/::1/-/22ms POST /api/jjtc/save-config] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:47:39,533 WARN 1654 [-/::1/-/24ms POST /api/jjtc/save-config] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 1654
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:47:45,174 WARN 1655 [-/::1/-/16ms POST /api/jjtc/save-config] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:47:45,176 WARN 1655 [-/::1/-/18ms POST /api/jjtc/save-config] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 1655
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:50:18,860 WARN 1658 [-/::1/-/23ms POST /api/jjtc/save-config] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:50:18,861 WARN 1658 [-/::1/-/25ms POST /api/jjtc/save-config] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 1658
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:51:20,066 INFO 1735 [-/192.168.1.101/-/12ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:51:20,473 INFO 1735 [-/192.168.1.101/-/341ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 340 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:51:32,587 WARN 1729 [-/::1/-/28ms POST /api/jjtc/save-config] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:51:32,590 WARN 1729 [-/::1/-/30ms POST /api/jjtc/save-config] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 1729
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:52:30,392 WARN 1734 [-/::1/-/16ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:52:30,394 WARN 1734 [-/::1/-/18ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 1734
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:56:58,327 INFO 1851 [-/192.168.1.101/-/9ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:56:58,689 INFO 1851 [-/192.168.1.101/-/303ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 302 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:57:44,739 WARN 1857 [-/::1/-/18ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:57:44,740 WARN 1857 [-/::1/-/20ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 1857
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:57:51,725 WARN 1856 [-/::1/-/14ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:57:51,726 WARN 1856 [-/::1/-/16ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 1856
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:58:43,136 WARN 1852 [-/::1/-/10ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:58:43,138 WARN 1852 [-/::1/-/11ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 1852
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 03:59:03,391 INFO 1921 [-/192.168.1.101/-/22ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 7 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:59:03,803 INFO 1921 [-/192.168.1.101/-/354ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 353 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 03:59:56,102 WARN 1926 [-/::1/-/18ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 03:59:56,104 WARN 1926 [-/::1/-/20ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 1926
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:00:01,964 WARN 1921 [-/::1/-/10ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:00:01,965 WARN 1921 [-/::1/-/11ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 1921
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:01:53,894 WARN 1925 [-/::1/-/11ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:01:53,895 WARN 1925 [-/::1/-/13ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 1925
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:04:43,195 INFO 2022 [-/192.168.1.101/-/12ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:04:43,650 INFO 2022 [-/192.168.1.101/-/449ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 448 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:05:17,534 INFO 2021 [-/::1/-/302ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4131 - 296 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:07:46,435 INFO 2121 [-/::1/-/157ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 30 - 152 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:07:49,722 INFO 2121 [-/::1/-/54ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 30 - 54 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:07:56,106 INFO 2122 [-/::1/-/91ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 30 - 85 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:08:29,407 WARN 2126 [-/::1/-/17ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:08:29,409 WARN 2126 [-/::1/-/19ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2126
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:09:07,603 INFO 2124 [-/::1/-/165ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 30 - 159 - PostmanRuntime/7.1.1
+2018-05-24 04:11:34,779 INFO 2122 [-/::1/-/114ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 30 - 113 - PostmanRuntime/7.1.1
+2018-05-24 04:11:42,960 WARN 2127 [-/::1/-/12ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:11:42,962 WARN 2127 [-/::1/-/13ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2127
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:12:49,219 INFO 2128 [-/::1/-/1214ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 30 - 1209 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:12:53,347 WARN 2121 [-/::1/-/10ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:12:53,348 WARN 2121 [-/::1/-/11ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2121
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:13:57,433 INFO 2223 [-/192.168.1.101/-/12ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:13:57,806 INFO 2223 [-/192.168.1.101/-/364ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1462 - 363 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:14:03,105 INFO 2226 [-/192.168.1.101/-/150ms GET /api/jjtc/get-config] [access] 192.168.1.101: - GET /api/jjtc/get-config HTTP/200 30 http://192.168.1.101:7001/ssr/setting 142 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:14:09,443 WARN 2227 [-/::1/-/14ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:14:09,445 WARN 2227 [-/::1/-/15ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2227
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:21:59,692 INFO 2310 [-/::1/-/8ms GET /] [access] ::1: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:22:00,118 INFO 2310 [-/::1/-/420ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1509 - 420 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:22:51,332 INFO 2313 [-/::1/-/167ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 30 http://localhost:7001/ssr/setting 160 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:23:54,351 INFO 2348 [-/::1/-/428ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 422 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:24:26,305 INFO 2351 [-/::1/-/271ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 262 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:25:09,818 WARN 2353 [-/::1/-/13ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:25:09,819 WARN 2353 [-/::1/-/15ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2353
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:28:45,074 INFO 2352 [-/::1/-/463ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 456 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:28:48,558 WARN 2350 [-/::1/-/21ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:28:48,559 WARN 2350 [-/::1/-/22ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2350
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:29:46,665 INFO 2353 [-/::1/-/256ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 254 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:34:21,026 INFO 2503 [-/192.168.1.101/-/13ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:34:21,541 INFO 2503 [-/192.168.1.101/-/506ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1520 - 505 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:34:31,250 WARN 2502 [-/::1/-/21ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:34:31,252 WARN 2502 [-/::1/-/22ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2502
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:35:39,993 INFO 2498 [-/::1/-/271ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 262 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:38:37,910 INFO 2582 [-/::1/-/395ms GET /ssr/about] [access] ::1: - GET /ssr/about HTTP/200 1175 - 389 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:40:56,047 INFO 2588 [-/::1/-/265ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 258 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:42:05,918 WARN 2640 [-/::1/-/16ms POST /api/jjtc/validate-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 04:42:05,919 WARN 2640 [-/::1/-/18ms POST /api/jjtc/validate-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 2640
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 04:42:14,068 INFO 2641 [-/::1/-/282ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 275 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:43:00,813 INFO 2639 [-/::1/-/309ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 302 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:43:05,651 INFO 2635 [-/::1/-/253ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 250 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 04:54:01,138 INFO 3152 [-/192.168.1.101/-/10ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:54:01,527 INFO 3152 [-/192.168.1.101/-/381ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1520 - 380 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:55:28,817 INFO 3236 [-/192.168.1.101/-/11ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:55:29,155 INFO 3236 [-/192.168.1.101/-/302ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1520 - 302 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 04:55:51,105 INFO 3243 [-/::1/-/8ms GET /api/get-csrf] [access] ::1: - GET /api/get-csrf HTTP/404 - - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:55:58,087 INFO 3241 [-/::1/-/8ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 3 - PostmanRuntime/7.1.1
+2018-05-24 04:56:00,107 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:00,993 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:01,550 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:02,036 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 1 - PostmanRuntime/7.1.1
+2018-05-24 04:56:02,294 INFO 3241 [-/::1/-/0ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:02,461 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 1 - PostmanRuntime/7.1.1
+2018-05-24 04:56:02,632 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 1 - PostmanRuntime/7.1.1
+2018-05-24 04:56:03,192 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:03,506 INFO 3241 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:23,019 INFO 3242 [-/::1/-/14ms POST /api/jjtc/validate-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] [access] ::1: - POST /api/jjtc/validate-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc HTTP/404 - - 1 - PostmanRuntime/7.1.1
+2018-05-24 04:56:30,934 INFO 3238 [-/::1/-/16ms POST /api/jjtc/validate-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] [access] ::1: - POST /api/jjtc/validate-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc HTTP/404 - - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:32,474 INFO 3238 [-/::1/-/1ms POST /api/jjtc/validate-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] [access] ::1: - POST /api/jjtc/validate-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc HTTP/404 - - 0 - PostmanRuntime/7.1.1
+2018-05-24 04:56:50,815 INFO 3243 [-/::1/-/343ms POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] [access] ::1: - POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc HTTP/200 190 - 334 - PostmanRuntime/7.1.1
+2018-05-24 05:01:33,382 INFO 3287 [-/192.168.1.101/-/8ms GET /api/jjtc/get-csrf] [access] 192.168.1.101: - GET /api/jjtc/get-csrf HTTP/200 36 http://192.168.1.101:7001/ssr 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:01:49,566 INFO 3285 [-/192.168.1.101/-/10ms GET /api/jjtc/get-csrf] [access] 192.168.1.101: - GET /api/jjtc/get-csrf HTTP/200 36 http://192.168.1.101:7001/ssr 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:02:22,289 INFO 3286 [-/192.168.1.101/-/11ms GET /api/jjtc/get-csrf] [access] 192.168.1.101: - GET /api/jjtc/get-csrf HTTP/200 36 http://192.168.1.101:7001/ssr 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:03:33,449 INFO 3289 [-/::1/-/256ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 252 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:03:43,957 INFO 3291 [-/::1/-/267ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4189 - 259 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:06:08,881 INFO 3370 [-/::1/-/274ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 267 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:11:38,481 INFO 3364 [-/::1/-/298ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 293 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:13:04,890 INFO 3365 [-/::1/-/273ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 269 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:13:33,377 INFO 3368 [-/::1/-/62ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 60 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:14:03,662 INFO 3364 [-/::1/-/44ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 42 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:14:06,958 INFO 3368 [-/::1/-/32ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 31 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:14:19,318 INFO 3366 [-/::1/-/441ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 436 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:14:50,831 INFO 3368 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 05:15:05,605 INFO 3366 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 05:15:10,645 INFO 3366 [-/::1/-/215ms POST /api/jjtc/save-config?_csrf=t3fZsFMM-ou5siyEOqpcs1GyD9kblvV_TWMk] [access] ::1: - POST /api/jjtc/save-config?_csrf=t3fZsFMM-ou5siyEOqpcs1GyD9kblvV_TWMk HTTP/200 190 - 201 - PostmanRuntime/7.1.1
+2018-05-24 05:15:22,107 INFO 3369 [-/::1/-/35ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 - 32 - PostmanRuntime/7.1.1
+2018-05-24 05:15:50,681 INFO 3370 [-/::1/-/41ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 41 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:16:01,699 INFO 3365 [-/::1/-/41ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 41 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:17:04,552 INFO 3371 [-/::1/-/421ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 417 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:17:07,931 INFO 3369 [-/::1/-/241ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 240 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:17:43,280 INFO 3370 [-/::1/-/37ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 36 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:18:10,937 INFO 3365 [-/::1/-/47ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 45 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:19:05,493 INFO 3366 [-/::1/-/54ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 http://localhost:7001/ssr/setting 52 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:19:12,647 INFO 3365 [-/::1/-/47ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 46 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:19:24,599 INFO 3371 [-/::1/-/43ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 42 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:20:29,615 INFO 3368 [-/::1/-/39ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 http://localhost:7001/ssr/setting 37 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:20:34,972 INFO 3371 [-/::1/-/42ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 42 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:20:35,724 INFO 3367 [-/::1/-/82ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 http://localhost:7001/ssr/setting 79 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:21:16,322 INFO 3371 [-/::1/-/108ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 http://localhost:7001/ssr/setting 106 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:21:22,855 WARN 3366 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=eeAw1qnw-mPn2sRVsgG-bUlj-5tpZ5Bxi9s4] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:21:22,857 WARN 3366 [-/::1/-/3ms POST /api/jjtc/save-config?_csrf=eeAw1qnw-mPn2sRVsgG-bUlj-5tpZ5Bxi9s4] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3366
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:21:36,797 WARN 3365 [-/::1/-/23ms POST /api/jjtc/save-config?_csrf=eeAw1qnw-mPn2sRVsgG-bUlj-5tpZ5Bxi9s4] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:21:36,799 WARN 3365 [-/::1/-/24ms POST /api/jjtc/save-config?_csrf=eeAw1qnw-mPn2sRVsgG-bUlj-5tpZ5Bxi9s4] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3365
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:21:47,703 INFO 3369 [-/::1/-/56ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 56 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:22:12,293 WARN 3366 [-/::1/-/1ms POST /api/jjtc/save-config?_csrf=wAv30icM-Yi9Y_D7ZsKsy4GPFkadDpE0GMuo] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:22:12,294 WARN 3366 [-/::1/-/1ms POST /api/jjtc/save-config?_csrf=wAv30icM-Yi9Y_D7ZsKsy4GPFkadDpE0GMuo] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3366
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:28:53,095 INFO 3705 [-/192.168.1.101/-/9ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:28:53,401 INFO 3705 [-/192.168.1.101/-/301ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1473 - 301 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:29:05,703 INFO 3703 [-/::1/-/95ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 - 89 - PostmanRuntime/7.1.1
+2018-05-24 05:29:06,750 INFO 3703 [-/::1/-/21ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 - 21 - PostmanRuntime/7.1.1
+2018-05-24 05:29:07,505 INFO 3703 [-/::1/-/23ms GET /api/jjtc/get-config] [access] ::1: - GET /api/jjtc/get-config HTTP/200 166 - 22 - PostmanRuntime/7.1.1
+2018-05-24 05:29:09,794 INFO 3703 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 05:29:10,467 INFO 3703 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 05:29:11,037 INFO 3703 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 - 0 - PostmanRuntime/7.1.1
+2018-05-24 05:29:13,583 INFO 3703 [-/::1/-/135ms POST /api/jjtc/save-config?_csrf=t3fZsFMM-ou5siyEOqpcs1GyD9kblvV_TWMk] [access] ::1: - POST /api/jjtc/save-config?_csrf=t3fZsFMM-ou5siyEOqpcs1GyD9kblvV_TWMk HTTP/200 190 - 122 - PostmanRuntime/7.1.1
+2018-05-24 05:29:14,340 INFO 3703 [-/::1/-/77ms POST /api/jjtc/save-config?_csrf=t3fZsFMM-ou5siyEOqpcs1GyD9kblvV_TWMk] [access] ::1: - POST /api/jjtc/save-config?_csrf=t3fZsFMM-ou5siyEOqpcs1GyD9kblvV_TWMk HTTP/200 190 - 76 - PostmanRuntime/7.1.1
+2018-05-24 05:29:19,571 WARN 3700 [-/::1/-/12ms POST /api/jjtc/save-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:29:19,572 WARN 3700 [-/::1/-/13ms POST /api/jjtc/save-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 3700
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:29:20,501 WARN 3700 [-/::1/-/1ms POST /api/jjtc/save-config] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:29:20,502 WARN 3700 [-/::1/-/4ms POST /api/jjtc/save-config] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 3700
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:29:32,858 WARN 3701 [-/::1/-/13ms POST /api/jjtc/save-config?_csrf=abc] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:29:32,860 WARN 3701 [-/::1/-/15ms POST /api/jjtc/save-config?_csrf=abc] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 3701
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:30:35,506 INFO 3699 [-/::1/-/267ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 261 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:30:41,723 WARN 3705 [-/::1/-/14ms POST /api/jjtc/save-config?_csrf=AFoFFQAa-rp_JNNfhiC-O3IsI84AUilK2Q3Q] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:30:41,724 WARN 3705 [-/::1/-/15ms POST /api/jjtc/save-config?_csrf=AFoFFQAa-rp_JNNfhiC-O3IsI84AUilK2Q3Q] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3705
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:30:45,545 INFO 3701 [-/::1/-/292ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 290 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:30:48,994 WARN 3700 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=OJaVRuE8-QlbnkZBNXFhu5J1OarEAiL8vEuA] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:30:48,994 WARN 3700 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=OJaVRuE8-QlbnkZBNXFhu5J1OarEAiL8vEuA] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3700
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:33:37,437 INFO 3701 [-/::1/-/44ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 43 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:33:39,943 INFO 3700 [-/::1/-/3ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:33:39,965 WARN 3700 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=Sesgr1Ky-W4f8NDJs7861AxkxdyY-_6OjFe4] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:33:39,965 WARN 3700 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=Sesgr1Ky-W4f8NDJs7861AxkxdyY-_6OjFe4] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3700
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:33:45,239 INFO 3705 [-/::1/-/2ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 1 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:33:45,256 WARN 3705 [-/::1/-/1ms POST /api/jjtc/save-config?_csrf=HpfwHaY3-Pj9nAgV9q7KZ7qGmzfIOBd08Ylo] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:33:45,257 WARN 3705 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=HpfwHaY3-Pj9nAgV9q7KZ7qGmzfIOBd08Ylo] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3705
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:34:29,751 INFO 3702 [-/::1/-/124ms POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] [access] ::1: - POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc HTTP/200 190 - 114 - PostmanRuntime/7.1.1
+2018-05-24 05:37:59,919 INFO 3699 [-/::1/-/44ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 43 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:38:01,899 INFO 3702 [-/::1/-/2ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:38:01,937 WARN 3702 [-/::1/-/1ms POST /api/jjtc/save-config?_csrf=9Q9QJk3d-rrMBvKRBEEuL7o1qOpIG6VFPXpg] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:38:01,940 WARN 3702 [-/::1/-/3ms POST /api/jjtc/save-config?_csrf=9Q9QJk3d-rrMBvKRBEEuL7o1qOpIG6VFPXpg] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3702
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:38:55,075 WARN 3699 [-/::1/-/10ms POST /api/jjtc/save-config?_csrf=9Q9QJk3d-rrMBvKRBEEuL7o1qOpIG6VFPXpg] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:38:55,076 WARN 3699 [-/::1/-/11ms POST /api/jjtc/save-config?_csrf=9Q9QJk3d-rrMBvKRBEEuL7o1qOpIG6VFPXpg] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'invalid csrf token'
+pid: 3699
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:39:09,897 INFO 3704 [-/::1/-/154ms POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] [access] ::1: - POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc HTTP/200 190 - 140 - PostmanRuntime/7.1.1
+2018-05-24 05:39:43,455 INFO 3705 [-/::1/-/107ms POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] [access] ::1: - POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc HTTP/200 190 - 105 - PostmanRuntime/7.1.1
+2018-05-24 05:40:43,578 INFO 3703 [-/::1/-/454ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 453 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:40:46,674 INFO 3701 [-/::1/-/2ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:40:46,698 WARN 3701 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=kSgvSnW9-zt4t882ucN7YHhREcR3bXpTr8kg] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:40:46,699 WARN 3701 [-/::1/-/3ms POST /api/jjtc/save-config?_csrf=kSgvSnW9-zt4t882ucN7YHhREcR3bXpTr8kg] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3701
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:40:49,075 INFO 3701 [-/::1/-/0ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:40:49,097 WARN 3701 [-/::1/-/1ms POST /api/jjtc/save-config?_csrf=DRKO9EHC-7qfhJKNJypPobiM7dPtFgDgjQ_0] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:40:49,098 WARN 3701 [-/::1/-/2ms POST /api/jjtc/save-config?_csrf=DRKO9EHC-7qfhJKNJypPobiM7dPtFgDgjQ_0] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3701
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:42:09,305 INFO 3702 [-/::1/-/467ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 467 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:42:12,455 INFO 3705 [-/::1/-/2ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:42:12,485 WARN 3705 [-/::1/-/1ms POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:42:12,486 WARN 3705 [-/::1/-/1ms POST /api/jjtc/save-config?_csrf=Fd4X8Kvb-FFALUmfi6aN5GU8kiF0cycJkkPc] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3705
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:45:22,123 INFO 3878 [-/192.168.1.101/-/12ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 5 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:45:22,487 INFO 3878 [-/192.168.1.101/-/359ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1473 - 358 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:46:38,453 INFO 3883 [-/::1/-/267ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 260 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:46:41,377 INFO 3876 [-/::1/-/264ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 260 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:46:45,856 INFO 3880 [-/::1/-/8ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:46:45,893 WARN 3880 [-/::1/-/22ms POST /api/jjtc/save-config?_csrf=R2I96h2r-PYbwXfaP9zd0m2izyGxMUCTkqQo] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:46:45,895 WARN 3880 [-/::1/-/24ms POST /api/jjtc/save-config?_csrf=R2I96h2r-PYbwXfaP9zd0m2izyGxMUCTkqQo] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3880
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:48:24,110 INFO 3881 [-/::1/-/283ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 279 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:48:27,188 INFO 3878 [-/::1/-/1ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:48:27,223 WARN 3878 [-/::1/-/13ms POST /api/jjtc/save-config?_csrf=KV4JUjyi-aWihjY9M6rs91hXtZOQlM9Z2des] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:48:27,225 WARN 3878 [-/::1/-/14ms POST /api/jjtc/save-config?_csrf=KV4JUjyi-aWihjY9M6rs91hXtZOQlM9Z2des] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3878
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:49:30,358 INFO 3880 [-/::1/-/282ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 280 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:49:35,279 INFO 3877 [-/::1/-/6ms GET /api/jjtc/get-csrf] [access] ::1: - GET /api/jjtc/get-csrf HTTP/200 36 http://localhost:7001/ssr/setting 2 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:49:35,311 WARN 3877 [-/::1/-/14ms POST /api/jjtc/save-config?_csrf=nJE8Gt0Y-rzF00LupEgsQFiDyyDgnzUV2WP8] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-05-24 05:49:35,313 WARN 3877 [-/::1/-/15ms POST /api/jjtc/save-config?_csrf=nJE8Gt0Y-rzF00LupEgsQFiDyyDgnzUV2WP8] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/app/extend/context.js:140:17)
+    at csrf (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at /Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-compose/index.js:42:32)
+message: 'missing csrf token'
+pid: 3877
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 05:49:55,469 INFO 3878 [-/::1/-/50ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 - 48 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:50:17,622 INFO 3955 [-/192.168.1.101/-/16ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 9 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:50:17,931 INFO 3955 [-/192.168.1.101/-/302ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1473 - 300 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:50:18,633 INFO 3957 [-/::1/-/595ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 http://localhost:7001/ssr/setting 591 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:50:22,056 INFO 3956 [-/::1/-/223ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 http://localhost:7001/ssr/setting 218 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:50:48,626 INFO 3958 [-/::1/-/257ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 http://localhost:7001/ssr/setting 252 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:50:55,148 INFO 3955 [-/::1/-/46ms GET /ssr/setting] [access] ::1: - GET /ssr/setting HTTP/200 4142 http://localhost:7001/ssr/setting 45 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 05:53:15,616 INFO 4070 [-/192.168.1.101/-/15ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:53:16,127 INFO 4070 [-/192.168.1.101/-/416ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1473 - 415 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:55:22,539 INFO 4133 [-/192.168.1.101/-/10ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:55:22,865 INFO 4133 [-/192.168.1.101/-/241ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1473 - 241 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:55:26,372 INFO 4140 [-/192.168.1.101/-/53ms GET /api/jjtc/get-config] [access] 192.168.1.101: - GET /api/jjtc/get-config HTTP/200 166 http://192.168.1.101:7001/ssr/setting 48 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 05:55:27,724 INFO 4140 [-/192.168.1.101/-/86ms POST /api/jjtc/save-config] [access] 192.168.1.101: - POST /api/jjtc/save-config HTTP/200 190 http://192.168.1.101:7001/ssr/setting 76 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:04:01,722 INFO 4337 [-/192.168.1.101/-/14ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:04:02,222 INFO 4337 [-/192.168.1.101/-/292ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1473 - 291 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:04:22,568 INFO 4338 [-/::1/-/7ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/404 - - 0 - PostmanRuntime/7.1.1
+2018-05-24 06:04:55,500 INFO 4338 [-/::1/-/1ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/404 - - 0 - PostmanRuntime/7.1.1
+2018-05-24 06:05:33,136 INFO 4405 [-/192.168.1.101/-/14ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:05:33,468 INFO 4405 [-/192.168.1.101/-/255ms GET /ssr] [access] 192.168.1.101: - GET /ssr HTTP/200 1473 - 255 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:07:04,720 INFO 4471 [-/::1/-/260ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 - 254 - PostmanRuntime/7.1.1
+2018-05-24 06:09:28,182 WARN 4560 [-/::1/-/18ms POST /api/jjtc/list-file] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at Object.getFileStream (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-multipart/app/extend/context.js:35:24)
+    at SPAController.listFile (/Users/wuyun/work/test/test-egg-react2/app/controller/jjtc.js:69:30)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/wuyun/work/test/test-egg-react2/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/wuyun/work/test/test-egg-react2/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+message: 'Content-Type must be multipart/*'
+pid: 4560
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 06:10:41,071 INFO 4645 [-/::1/-/190ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 1804 - 184 - PostmanRuntime/7.1.1
+2018-05-24 06:14:47,148 INFO 4647 [-/::1/-/277ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1443 http://localhost:7001/ssr/setting 273 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:14:52,056 INFO 4645 [-/::1/-/223ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 220 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:15:33,695 INFO 4642 [-/::1/-/121ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 116 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:21:20,745 INFO 4647 [-/192.168.1.101/-/369ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 1860 http://192.168.1.101:7001/ssr 368 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:21:20,744 INFO 4643 [-/::1/-/360ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 1860 http://localhost:7001/ssr 356 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:24:48,117 INFO 4779 [-/192.168.1.101/-/176ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3174 http://192.168.1.101:7001/ssr 168 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:24:48,249 INFO 4782 [-/::1/-/140ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3174 http://localhost:7001/ssr 133 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:25:48,636 INFO 4821 [-/::1/-/422ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1443 http://localhost:7001/ssr/setting 414 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:25:49,460 INFO 4823 [-/::1/-/163ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3064 http://localhost:7001/ssr 158 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:26:04,207 INFO 4822 [-/::1/-/149ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 106 http://localhost:7001/ssr 142 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:27:19,033 INFO 4825 [-/::1/-/119ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3091 http://localhost:7001/ssr 112 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:27:19,033 INFO 4821 [-/192.168.1.101/-/127ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3091 http://192.168.1.101:7001/ssr 126 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:27:49,613 INFO 4824 [-/192.168.1.101/-/73ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3091 http://192.168.1.101:7001/ssr 68 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:27:49,613 INFO 4819 [-/::1/-/74ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3091 http://localhost:7001/ssr 69 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:29:07,722 INFO 4822 [-/::1/-/192ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 191 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:29:14,421 INFO 4826 [-/::1/-/285ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 http://localhost:7001/ssr/setting 280 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:29:15,231 INFO 4819 [-/::1/-/153ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3176 http://localhost:7001/ssr 152 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:29:27,741 INFO 4824 [-/::1/-/304ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 160 http://localhost:7001/ssr 303 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:30:07,157 INFO 4823 [-/::1/-/104ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 102 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:30:27,356 INFO 4821 [-/192.168.1.101/-/71ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3369 http://192.168.1.101:7001/ssr 70 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:30:27,359 INFO 4826 [-/::1/-/75ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3369 http://localhost:7001/ssr 74 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:30:32,187 INFO 4822 [-/::1/-/122ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 106 http://localhost:7001/ssr 121 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:30:42,143 INFO 4825 [-/::1/-/98ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 95 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:31:15,973 INFO 4820 [-/::1/-/115ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 113 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:32:32,073 INFO 4894 [-/::1/-/390ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 http://localhost:7001/ssr/setting 382 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:32:32,929 INFO 4897 [-/::1/-/89ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3586 http://localhost:7001/ssr 84 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:33:45,505 INFO 4894 [-/::1/-/39ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 http://localhost:7001/ssr/setting 38 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:33:46,293 INFO 4897 [-/::1/-/92ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3586 http://localhost:7001/ssr 92 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:39:47,012 INFO 4900 [-/::1/-/151ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 144 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:41:59,795 INFO 4896 [-/192.168.1.101/-/335ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3587 http://192.168.1.101:7001/ssr 333 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:41:59,802 INFO 4895 [-/::1/-/342ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 339 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:42:57,059 INFO 4897 [-/::1/-/135ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 134 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:42:57,079 INFO 4898 [-/192.168.1.101/-/156ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3587 http://192.168.1.101:7001/ssr 150 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:43:07,563 INFO 4900 [-/::1/-/450ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 http://localhost:7001/ssr/setting 449 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:43:08,280 INFO 4896 [-/::1/-/164ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 163 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:43:17,319 INFO 4893 [-/::1/-/259ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 http://localhost:7001/ssr/setting 256 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:43:18,005 INFO 4895 [-/::1/-/232ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 230 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:43:38,397 INFO 4896 [-/::1/-/106ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 105 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:43:38,400 INFO 4894 [-/192.168.1.101/-/69ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3587 http://192.168.1.101:7001/ssr 67 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:43:44,468 INFO 4893 [-/::1/-/243ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 240 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:44:05,006 INFO 4897 [-/192.168.1.101/-/85ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3587 http://192.168.1.101:7001/ssr 84 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:44:05,006 INFO 4900 [-/::1/-/85ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 85 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:46:25,314 INFO 4896 [-/::1/-/71ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 71 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:46:25,317 INFO 4899 [-/192.168.1.101/-/77ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3587 http://192.168.1.101:7001/ssr 73 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:47:14,789 INFO 4893 [-/192.168.1.101/-/86ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3587 http://192.168.1.101:7001/ssr 85 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:47:14,789 INFO 4898 [-/::1/-/85ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 84 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:48:08,427 INFO 4895 [-/::1/-/63ms GET /api/jjtc/list-file] [access] ::1: - GET /api/jjtc/list-file HTTP/200 3587 http://localhost:7001/ssr 62 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:48:08,371 INFO 4900 [-/192.168.1.101/-/86ms GET /api/jjtc/list-file] [access] 192.168.1.101: - GET /api/jjtc/list-file HTTP/200 3587 http://192.168.1.101:7001/ssr 85 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:53:20,779 INFO 5193 [-/192.168.1.101/-/7ms GET /] [access] 192.168.1.101: - GET / HTTP/302 39 - 3 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:60.0) Gecko/20100101 Firefox/60.0
+2018-05-24 06:56:21,267 INFO 5192 [-/::1/-/244ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 - 238 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:56:25,712 INFO 5198 [-/::1/-/253ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 - 248 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:56:32,320 INFO 5196 [-/::1/-/28ms GET /ssr] [access] ::1: - GET /ssr HTTP/200 1445 - 28 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+2018-05-24 06:56:36,730 INFO 5194 [-/::1/-/243ms POST /api/jjtc/upload] [access] ::1: - POST /api/jjtc/upload HTTP/200 144 http://localhost:7001/ssr 239 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
