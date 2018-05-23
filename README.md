@@ -1,16 +1,13 @@
-# egg-react-webpack-boilerplate
+# 简简图床
 
-基于 Egg + React + Webpack3 单页面服务端渲染同构工程骨架项目
+基于 Egg + React + Webpack3 + 七牛云存储 单页面服务端渲染同构工程图床`Demo`项目
 
 - Egg 版本： ^2.x.x
 - Node 版本: Node ^8.x.x+
 - Webpack 版本: ^3.10.0, 对应 `easywebpack-react` 版本为 3.6.0
 - React 版本: ^15.0.0, ^16.0.0, 
+- qiniu 版本: 7.1.7
 
-## 文档
-
-- http://hubcarl.github.io/easywebpack/react/rule
-- https://zhuanlan.zhihu.com/easywebpack
 
 ## 特性
 
@@ -22,6 +19,10 @@
 
 - Node 8 版本的 async 和 await 特性, Controller 采用 class 方式编写
 
+- 图片保存到七牛云
+
+- 拖拽上传图片
+
 
 ## 依赖
 
@@ -31,7 +32,8 @@
 - [egg-webpack](https://github.com/hubcarl/egg-webpack) ^2.4.6
 - [egg-webpack-react](https://github.com/hubcarl/egg-webpack-react) ^2.0.0
 
-![工程化](http://hubcarl.github.io/img/webpack/egg-webpack-react-ssr.png)
+![](http://7xsjnn.com2.z0.glb.clouddn.com/15271170207529.jpg)
+
 
 
 
@@ -58,8 +60,8 @@ npm start
 
 应用访问: http://127.0.0.1:7001
 
+![](http://7xsjnn.com2.z0.glb.clouddn.com/15271170561959.png)
 
-![npm start启动](https://github.com/hubcarl/egg-react-webpack-boilerplate/blob/master/docs/images/webpack.png)
 
 #### 项目构建
 
@@ -71,6 +73,13 @@ npm start
 npm run build 或者 easywebpack build prod
 ```
 
+#### 项目截图
+
+![](http://7xsjnn.com2.z0.glb.clouddn.com/15271168264465.jpg)
+![](http://7xsjnn.com2.z0.glb.clouddn.com/15271169015438.jpg)
+
+
 ## License
 
 [MIT](LICENSE)
+

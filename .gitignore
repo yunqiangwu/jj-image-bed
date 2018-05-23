@@ -18,6 +18,7 @@ npm-debug.log*
 
 /dist_history
 
-/log
+/logs
+/run
 *.tar.gz
 /*.log

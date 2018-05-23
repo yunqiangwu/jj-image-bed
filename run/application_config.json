@@ -155,7 +155,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/wuyun/work/test/test-egg-react2/logs/test-egg-react2/egg-schedule.log"
+        "file": "/Users/wuyun/work/test/test-egg-react2/logs/image-bed/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -503,7 +503,7 @@
                     ]
                   }
                 ],
-                "dllDir": "/var/folders/k5/n1xp34qj5vsbx0z6q3xphfdh0000gn/T/easywebpack/test-egg-react2/dev"
+                "dllDir": "/var/folders/k5/n1xp34qj5vsbx0z6q3xphfdh0000gn/T/easywebpack/image-bed/dev"
               },
               "__plugin__": "webpack-manifest-resource-plugin",
               "__lable__": "manifest"
@@ -836,16 +836,16 @@
     },
     "webpackreact": {},
     "env": "local",
-    "name": "test-egg-react2",
+    "name": "image-bed",
     "keys": "<String len: 6>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "test-egg-react2",
+      "name": "image-bed",
       "version": "1.0.1",
-      "description": "基于 easywebpack-react 和 egg-view-react-ssr 插件单页面服务端渲染工程骨架项目",
+      "description": "简简图床",
       "scripts": {
         "build": "cross-env easywebpack build prod",
         "build:test": "cross-env easywebpack build test",
@@ -961,7 +961,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "test-egg-react2-web.log",
+      "appLogName": "image-bed-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
