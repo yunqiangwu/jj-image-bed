@@ -87,6 +87,11 @@ npm run build 或者 easywebpack build prod
 ---
 ![](http://7xsjnn.com2.z0.glb.clouddn.com/15271169015438.jpg)
 
+### TODO
+
+- [x] 拖拽上传
+- [ ] 粘贴图片
+- [ ] 相册管理
 
 ### License
 
