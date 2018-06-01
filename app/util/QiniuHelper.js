@@ -25,6 +25,10 @@ class QiniuHelper {
     this.qiniu = qiniu;
   }
 
+  /**
+   * 获取文件key
+   * @param {String} key 文件key
+   */
   getRealKey(key) {
     const dotIndex = key.lastIndexOf('.');
     let realKey;
@@ -38,6 +42,9 @@ class QiniuHelper {
     return realKey;
   }
 
+  /**
+   * 获取文件token
+   */
   getToken() {
     const options = {
       scope: this._options.bucket
@@ -46,6 +53,7 @@ class QiniuHelper {
     const uploadToken = putPolicy.uploadToken(this.mac);
     return uploadToken;
   }
+
 
   getFormUploader() {
     if (!this.formUploader) {
@@ -61,6 +69,10 @@ class QiniuHelper {
     return this.bucketManager;
   }
 
+  /**
+   * 获取文件的访问地址
+   * @param {String} key 文件的key
+   */
   getPublicDownloadUrl(key){
     const bucketManager = this.getBucketManager();
     const publicBucketDomain = this._options.domain;
@@ -69,6 +81,12 @@ class QiniuHelper {
     return publicDownloadUrl;
   }
 
+  /**
+   * 上传文件到七牛云
+   * @param {String} key 
+   * @param {String|Stream} localFile 文件地址 或 文件输入流对象
+   * @param {Boolean} isConverKey 是否转化key，转化即再文件后面加时间戳
+   */
   uploadFile(key, localFile, isConverKey = true) {
     var readableStream;
     if(typeof localFile === 'string'){
@@ -103,6 +121,11 @@ class QiniuHelper {
     });
   }
 
+  /**
+   * 保存一段字符串
+   * @param {String} key 
+   * @param {String} str 字符串内容
+   */
   uploadString(key, str) {
     var readableStream;
     // 创建一个bufferstream
@@ -113,6 +136,10 @@ class QiniuHelper {
   }
 
 
+  /**
+   * 列车指定前缀的文件集合
+   * @param {} param0 
+   */
   listPrefix({
     prefix = this._options.prefix,
     pageSize = 10,
@@ -165,6 +192,10 @@ class QiniuHelper {
     });
   }
 
+  /**
+   * 获取某个文件状态
+   * @param {String} key 文件key
+   */
   getFileState(key) {
     const bucketManager = this.getBucketManager();
     // @param options 列举操作的可选参数
@@ -185,6 +216,21 @@ class QiniuHelper {
         }
       });
     });
+  }
+
+  /**
+   * 更新配置
+   */
+  updateConfig(_options) {
+    const options = Object.assign({}, defaultOptions, _options);
+    const mac = new qiniu.auth.digest.Mac(options.ak, options.sk);
+    this.mac = mac;
+    const config = new qiniu.conf.Config();
+    // 空间对应的机房
+    config.zone = qiniu.zone[options.zone]||qiniu.zone.Zone_z0;
+    this.config = config;
+    this._options = options;
+    this.qiniu = qiniu;
   }
 }
 

@@ -443,3 +443,147 @@ hostname: wuyundeMacBook-Pro.local
 pid: 5196
 hostname: wuyundeMacBook-Pro.local
 
+2018-05-24 09:02:17,979 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:02:17,982 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976786ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:02:17,985 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976786ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:02:17,986 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976785ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:02:17,986 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976798ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:02:17,986 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976785ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:02:17,986 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976786ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:02:17,987 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 976786ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,389 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,389 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894394ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,390 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,391 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,391 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,392 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894392ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,392 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894392ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+
+2018-05-24 09:33:52,401 ERROR 6593 nodejs.ClusterClientNoResponseError: client no response in 1894392ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wuyun/work/test/test-egg-react2/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:475:11)
+    at tryOnTimeout (timers.js:310:5)
+    at Timer.listOnTimeout (timers.js:270:5)
+name: 'ClusterClientNoResponseError'
+pid: 6593
+hostname: wuyundeMacBook-Pro.local
+

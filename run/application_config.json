@@ -15,13 +15,13 @@
       "domainWhiteList": [
         "http://localhost:9000",
         "http://127.0.0.1:9000",
-        "http://192.168.1.101:9000",
+        "http://192.168.31.227:9000",
         "http://localhost:9001",
         "http://127.0.0.1:9001",
-        "http://192.168.1.101:9001",
+        "http://192.168.31.227:9001",
         "http://localhost:9002",
         "http://127.0.0.1:9002",
-        "http://192.168.1.101:9002"
+        "http://192.168.31.227:9002"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
@@ -221,25 +221,25 @@
           "entry": {
             "redux": [
               "react-hot-loader/patch",
-              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.31.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
               "/Users/wuyun/work/test/test-egg-react2/app/web/page/redux/redux.jsx"
             ],
             "client": [
               "react-hot-loader/patch",
-              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.31.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
               "/Users/wuyun/work/test/test-egg-react2/app/web/page/client/client.jsx"
             ],
             "ssr": [
               "react-hot-loader/patch",
-              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.31.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
               "/Users/wuyun/work/test/test-egg-react2/app/web/page/ssr/ssr.jsx"
             ],
             "layout": [
               "react-hot-loader/patch",
-              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.1.101:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/wuyun/work/test/test-egg-react2/node_modules/webpack-hot-middleware/client?path=http://192.168.31.227:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Users/wuyun/work/test/test-egg-react2/node_modules/easywebpack/utils/hot.js",
               "/Users/wuyun/work/test/test-egg-react2/app/web/framework/layout/layout.jsx"
             ]
@@ -248,7 +248,7 @@
             "filename": "js/[name].js",
             "chunkFilename": "js/chunk/[name].js",
             "path": "/Users/wuyun/work/test/test-egg-react2/public",
-            "publicPath": "http://192.168.1.101:9000/public/"
+            "publicPath": "http://192.168.31.227:9000/public/"
           },
           "resolve": {
             "extensions": [
@@ -442,8 +442,8 @@
                 "EASY_ENV_IS_BROWSER": true,
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_PUBLIC_PATH": "\"http://192.168.1.101:9000/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://192.168.1.101:9000\""
+                "EASY_ENV_PUBLIC_PATH": "\"http://192.168.31.227:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://192.168.31.227:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -487,10 +487,10 @@
                 "generate": null,
                 "sort": null,
                 "baseDir": "/Users/wuyun/work/test/test-egg-react2",
-                "host": "http://192.168.1.101:9000",
+                "host": "http://192.168.31.227:9000",
                 "proxy": true,
                 "buildPath": "/Users/wuyun/work/test/test-egg-react2/public",
-                "publicPath": "http://192.168.1.101:9000/public/",
+                "publicPath": "http://192.168.31.227:9000/public/",
                 "localPublicPath": "/public/",
                 "assets": false,
                 "filepath": "/Users/wuyun/work/test/test-egg-react2/config/manifest.json",
@@ -635,7 +635,7 @@
             "libraryTarget": "commonjs2",
             "filename": "[name].js",
             "path": "/Users/wuyun/work/test/test-egg-react2/app/view",
-            "publicPath": "http://192.168.1.101:9000/public/"
+            "publicPath": "http://192.168.31.227:9000/public/"
           },
           "resolve": {
             "extensions": [
@@ -805,8 +805,8 @@
                 "EASY_ENV_IS_BROWSER": false,
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_PUBLIC_PATH": "\"http://192.168.1.101:9000/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://192.168.1.101:9000\""
+                "EASY_ENV_PUBLIC_PATH": "\"http://192.168.31.227:9000/public/\"",
+                "EASY_ENV_HOST_URL": "\"http://192.168.31.227:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"

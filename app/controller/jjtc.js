@@ -19,6 +19,7 @@ module.exports = app => class SPAController extends app.Controller {
       const getConfigUrl = await qiniuHelper.uploadString(CONFIG_KEY, JSON.stringify(body));
       const result = await app.curl(getConfigUrl);
       console.log(result.data);
+      qiniuHelper.updateConfig(body);
       ctx.body = {
         success: true,
         data: body

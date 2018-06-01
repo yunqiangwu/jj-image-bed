@@ -24126,3 +24126,803 @@
 2018-05-24 07:05:55,416 INFO 5619 [egg:core] dump config after load, 11ms
 2018-05-24 07:05:55,434 INFO 5619 [egg-watcher:app] watcher start success
 2018-05-24 07:05:55,442 INFO 5619 [egg:core] dump config after ready, 6ms
+2018-05-24 07:42:07,076 INFO 6608 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,129 INFO 6608 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,129 INFO 6608 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,194 INFO 6608 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,197 INFO 6608 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,197 INFO 6608 [egg-security] use noopen middleware
+2018-05-24 07:42:07,198 INFO 6608 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,198 INFO 6608 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,199 INFO 6608 [egg-security] use xframe middleware
+2018-05-24 07:42:07,199 INFO 6608 [egg-security] use dta middleware
+2018-05-24 07:42:07,199 INFO 6608 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,255 INFO 6608 [egg:core] dump config after load, 9ms
+2018-05-24 07:42:07,337 INFO 6608 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,343 INFO 6608 [egg:core] dump config after ready, 4ms
+2018-05-24 07:42:07,076 INFO 6607 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,124 INFO 6607 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,124 INFO 6607 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,193 INFO 6607 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,196 INFO 6607 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,196 INFO 6607 [egg-security] use noopen middleware
+2018-05-24 07:42:07,197 INFO 6607 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,198 INFO 6607 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,198 INFO 6607 [egg-security] use xframe middleware
+2018-05-24 07:42:07,199 INFO 6607 [egg-security] use dta middleware
+2018-05-24 07:42:07,199 INFO 6607 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,254 INFO 6607 [egg:core] dump config after load, 8ms
+2018-05-24 07:42:07,310 INFO 6607 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,318 INFO 6607 [egg:core] dump config after ready, 6ms
+2018-05-24 07:42:07,080 INFO 6604 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,147 INFO 6604 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,147 INFO 6604 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,192 INFO 6604 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,196 INFO 6604 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,196 INFO 6604 [egg-security] use noopen middleware
+2018-05-24 07:42:07,197 INFO 6604 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,198 INFO 6604 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,198 INFO 6604 [egg-security] use xframe middleware
+2018-05-24 07:42:07,199 INFO 6604 [egg-security] use dta middleware
+2018-05-24 07:42:07,199 INFO 6604 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,255 INFO 6604 [egg:core] dump config after load, 9ms
+2018-05-24 07:42:07,320 INFO 6604 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,327 INFO 6604 [egg:core] dump config after ready, 4ms
+2018-05-24 07:42:07,077 INFO 6611 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,128 INFO 6611 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,128 INFO 6611 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,193 INFO 6611 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,196 INFO 6611 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,196 INFO 6611 [egg-security] use noopen middleware
+2018-05-24 07:42:07,197 INFO 6611 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,198 INFO 6611 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,198 INFO 6611 [egg-security] use xframe middleware
+2018-05-24 07:42:07,199 INFO 6611 [egg-security] use dta middleware
+2018-05-24 07:42:07,199 INFO 6611 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,253 INFO 6611 [egg:core] dump config after load, 8ms
+2018-05-24 07:42:07,308 INFO 6611 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,321 INFO 6611 [egg:core] dump config after ready, 9ms
+2018-05-24 07:42:07,078 INFO 6605 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,124 INFO 6605 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,124 INFO 6605 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,193 INFO 6605 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,196 INFO 6605 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,196 INFO 6605 [egg-security] use noopen middleware
+2018-05-24 07:42:07,197 INFO 6605 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,198 INFO 6605 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,198 INFO 6605 [egg-security] use xframe middleware
+2018-05-24 07:42:07,199 INFO 6605 [egg-security] use dta middleware
+2018-05-24 07:42:07,199 INFO 6605 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,257 INFO 6605 [egg:core] dump config after load, 10ms
+2018-05-24 07:42:07,309 INFO 6605 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,320 INFO 6605 [egg:core] dump config after ready, 9ms
+2018-05-24 07:42:07,087 INFO 6610 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,151 INFO 6610 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,151 INFO 6610 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,196 INFO 6610 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,199 INFO 6610 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,200 INFO 6610 [egg-security] use noopen middleware
+2018-05-24 07:42:07,200 INFO 6610 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,200 INFO 6610 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,201 INFO 6610 [egg-security] use xframe middleware
+2018-05-24 07:42:07,201 INFO 6610 [egg-security] use dta middleware
+2018-05-24 07:42:07,201 INFO 6610 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,255 INFO 6610 [egg:core] dump config after load, 10ms
+2018-05-24 07:42:07,310 INFO 6610 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,320 INFO 6610 [egg:core] dump config after ready, 8ms
+2018-05-24 07:42:07,084 INFO 6606 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,129 INFO 6606 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,129 INFO 6606 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,193 INFO 6606 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,196 INFO 6606 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,196 INFO 6606 [egg-security] use noopen middleware
+2018-05-24 07:42:07,197 INFO 6606 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,198 INFO 6606 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,198 INFO 6606 [egg-security] use xframe middleware
+2018-05-24 07:42:07,199 INFO 6606 [egg-security] use dta middleware
+2018-05-24 07:42:07,199 INFO 6606 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,255 INFO 6606 [egg:core] dump config after load, 10ms
+2018-05-24 07:42:07,314 INFO 6606 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,323 INFO 6606 [egg:core] dump config after ready, 6ms
+2018-05-24 07:42:07,095 INFO 6609 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-05-24 07:42:07,163 INFO 6609 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-05-24 07:42:07,164 INFO 6609 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-05-24 07:42:07,208 INFO 6609 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-05-24 07:42:07,211 INFO 6609 [egg-security] use methodnoallow middleware
+2018-05-24 07:42:07,212 INFO 6609 [egg-security] use noopen middleware
+2018-05-24 07:42:07,212 INFO 6609 [egg-security] use nosniff middleware
+2018-05-24 07:42:07,212 INFO 6609 [egg-security] use xssProtection middleware
+2018-05-24 07:42:07,213 INFO 6609 [egg-security] use xframe middleware
+2018-05-24 07:42:07,213 INFO 6609 [egg-security] use dta middleware
+2018-05-24 07:42:07,213 INFO 6609 [egg-security] compose 6 middlewares into one security middleware
+2018-05-24 07:42:07,257 INFO 6609 [egg:core] dump config after load, 10ms
+2018-05-24 07:42:07,327 INFO 6609 [egg-watcher:app] watcher start success
+2018-05-24 07:42:07,334 INFO 6609 [egg:core] dump config after ready, 5ms
+2018-05-24 09:02:17,980 WARN 6608 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:02:17,979 WARN 6611 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:02:17,978 WARN 6605 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:02:17,979 WARN 6610 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:02:17,978 WARN 6606 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:02:17,979 WARN 6604 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:02:17,979 WARN 6609 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:02:17,976 WARN 6607 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,389 WARN 6609 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,389 WARN 6607 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,390 WARN 6608 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,389 WARN 6611 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,390 WARN 6604 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,390 WARN 6606 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,390 WARN 6605 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-05-24 09:33:52,389 WARN 6610 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-06-01 19:11:42,104 INFO 38655 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,258 INFO 38655 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,259 INFO 38655 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,352 INFO 38655 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,357 INFO 38655 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,358 INFO 38655 [egg-security] use noopen middleware
+2018-06-01 19:11:42,358 INFO 38655 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,359 INFO 38655 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,360 INFO 38655 [egg-security] use xframe middleware
+2018-06-01 19:11:42,360 INFO 38655 [egg-security] use dta middleware
+2018-06-01 19:11:42,360 INFO 38655 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,438 INFO 38655 [egg:core] dump config after load, 9ms
+2018-06-01 19:11:42,456 INFO 38655 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,517 INFO 38655 [egg:core] dump config after ready, 58ms
+2018-06-01 19:11:42,108 INFO 38657 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,257 INFO 38657 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,257 INFO 38657 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,354 INFO 38657 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,357 INFO 38657 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,358 INFO 38657 [egg-security] use noopen middleware
+2018-06-01 19:11:42,358 INFO 38657 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,359 INFO 38657 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,359 INFO 38657 [egg-security] use xframe middleware
+2018-06-01 19:11:42,362 INFO 38657 [egg-security] use dta middleware
+2018-06-01 19:11:42,362 INFO 38657 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,440 INFO 38657 [egg:core] dump config after load, 10ms
+2018-06-01 19:11:42,462 INFO 38657 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,476 INFO 38657 [egg:core] dump config after ready, 10ms
+2018-06-01 19:11:42,113 INFO 38656 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,239 INFO 38656 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,239 INFO 38656 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,367 INFO 38656 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,372 INFO 38656 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,372 INFO 38656 [egg-security] use noopen middleware
+2018-06-01 19:11:42,373 INFO 38656 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,376 INFO 38656 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,376 INFO 38656 [egg-security] use xframe middleware
+2018-06-01 19:11:42,376 INFO 38656 [egg-security] use dta middleware
+2018-06-01 19:11:42,376 INFO 38656 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,482 INFO 38656 [egg:core] dump config after load, 9ms
+2018-06-01 19:11:42,512 INFO 38656 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,523 INFO 38656 [egg:core] dump config after ready, 7ms
+2018-06-01 19:11:42,127 INFO 38661 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,275 INFO 38661 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,275 INFO 38661 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,361 INFO 38661 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,368 INFO 38661 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,368 INFO 38661 [egg-security] use noopen middleware
+2018-06-01 19:11:42,369 INFO 38661 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,369 INFO 38661 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,371 INFO 38661 [egg-security] use xframe middleware
+2018-06-01 19:11:42,372 INFO 38661 [egg-security] use dta middleware
+2018-06-01 19:11:42,372 INFO 38661 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,502 INFO 38661 [egg:core] dump config after load, 17ms
+2018-06-01 19:11:42,530 INFO 38661 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,542 INFO 38661 [egg:core] dump config after ready, 6ms
+2018-06-01 19:11:42,137 INFO 38658 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,256 INFO 38658 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,256 INFO 38658 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,353 INFO 38658 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,356 INFO 38658 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,357 INFO 38658 [egg-security] use noopen middleware
+2018-06-01 19:11:42,358 INFO 38658 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,359 INFO 38658 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,360 INFO 38658 [egg-security] use xframe middleware
+2018-06-01 19:11:42,360 INFO 38658 [egg-security] use dta middleware
+2018-06-01 19:11:42,360 INFO 38658 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,441 INFO 38658 [egg:core] dump config after load, 12ms
+2018-06-01 19:11:42,464 INFO 38658 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,524 INFO 38658 [egg:core] dump config after ready, 55ms
+2018-06-01 19:11:42,133 INFO 38660 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,263 INFO 38660 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,263 INFO 38660 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,353 INFO 38660 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,357 INFO 38660 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,358 INFO 38660 [egg-security] use noopen middleware
+2018-06-01 19:11:42,358 INFO 38660 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,359 INFO 38660 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,360 INFO 38660 [egg-security] use xframe middleware
+2018-06-01 19:11:42,362 INFO 38660 [egg-security] use dta middleware
+2018-06-01 19:11:42,362 INFO 38660 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,439 INFO 38660 [egg:core] dump config after load, 9ms
+2018-06-01 19:11:42,458 INFO 38660 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,481 INFO 38660 [egg:core] dump config after ready, 20ms
+2018-06-01 19:11:42,154 INFO 38659 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,283 INFO 38659 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,283 INFO 38659 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,370 INFO 38659 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,373 INFO 38659 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,374 INFO 38659 [egg-security] use noopen middleware
+2018-06-01 19:11:42,374 INFO 38659 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,374 INFO 38659 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,375 INFO 38659 [egg-security] use xframe middleware
+2018-06-01 19:11:42,375 INFO 38659 [egg-security] use dta middleware
+2018-06-01 19:11:42,375 INFO 38659 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,480 INFO 38659 [egg:core] dump config after load, 12ms
+2018-06-01 19:11:42,529 INFO 38659 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,540 INFO 38659 [egg:core] dump config after ready, 6ms
+2018-06-01 19:11:42,189 INFO 38662 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:11:42,309 INFO 38662 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:11:42,309 INFO 38662 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:11:42,399 INFO 38662 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:11:42,403 INFO 38662 [egg-security] use methodnoallow middleware
+2018-06-01 19:11:42,403 INFO 38662 [egg-security] use noopen middleware
+2018-06-01 19:11:42,405 INFO 38662 [egg-security] use nosniff middleware
+2018-06-01 19:11:42,406 INFO 38662 [egg-security] use xssProtection middleware
+2018-06-01 19:11:42,409 INFO 38662 [egg-security] use xframe middleware
+2018-06-01 19:11:42,414 INFO 38662 [egg-security] use dta middleware
+2018-06-01 19:11:42,414 INFO 38662 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:11:42,534 INFO 38662 [egg:core] dump config after load, 11ms
+2018-06-01 19:11:42,550 INFO 38662 [egg-watcher:app] watcher start success
+2018-06-01 19:11:42,560 INFO 38662 [egg:core] dump config after ready, 7ms
+2018-06-01 19:14:38,606 INFO 38722 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,729 INFO 38722 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,729 INFO 38722 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,808 INFO 38722 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,811 INFO 38722 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,812 INFO 38722 [egg-security] use noopen middleware
+2018-06-01 19:14:38,812 INFO 38722 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,813 INFO 38722 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,813 INFO 38722 [egg-security] use xframe middleware
+2018-06-01 19:14:38,814 INFO 38722 [egg-security] use dta middleware
+2018-06-01 19:14:38,814 INFO 38722 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,866 INFO 38722 [egg:core] dump config after load, 9ms
+2018-06-01 19:14:38,936 INFO 38722 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,948 INFO 38722 [egg:core] dump config after ready, 7ms
+2018-06-01 19:14:38,622 INFO 38727 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,717 INFO 38727 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,717 INFO 38727 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,789 INFO 38727 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,793 INFO 38727 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,793 INFO 38727 [egg-security] use noopen middleware
+2018-06-01 19:14:38,794 INFO 38727 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,794 INFO 38727 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,795 INFO 38727 [egg-security] use xframe middleware
+2018-06-01 19:14:38,796 INFO 38727 [egg-security] use dta middleware
+2018-06-01 19:14:38,796 INFO 38727 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,859 INFO 38727 [egg:core] dump config after load, 11ms
+2018-06-01 19:14:38,882 INFO 38727 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,915 INFO 38727 [egg:core] dump config after ready, 20ms
+2018-06-01 19:14:38,637 INFO 38725 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,704 INFO 38725 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,704 INFO 38725 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,790 INFO 38725 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,793 INFO 38725 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,794 INFO 38725 [egg-security] use noopen middleware
+2018-06-01 19:14:38,794 INFO 38725 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,795 INFO 38725 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,795 INFO 38725 [egg-security] use xframe middleware
+2018-06-01 19:14:38,796 INFO 38725 [egg-security] use dta middleware
+2018-06-01 19:14:38,796 INFO 38725 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,863 INFO 38725 [egg:core] dump config after load, 14ms
+2018-06-01 19:14:38,929 INFO 38725 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,942 INFO 38725 [egg:core] dump config after ready, 11ms
+2018-06-01 19:14:38,660 INFO 38721 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,736 INFO 38721 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,736 INFO 38721 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,796 INFO 38721 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,799 INFO 38721 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,799 INFO 38721 [egg-security] use noopen middleware
+2018-06-01 19:14:38,800 INFO 38721 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,800 INFO 38721 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,800 INFO 38721 [egg-security] use xframe middleware
+2018-06-01 19:14:38,801 INFO 38721 [egg-security] use dta middleware
+2018-06-01 19:14:38,801 INFO 38721 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,853 INFO 38721 [egg:core] dump config after load, 9ms
+2018-06-01 19:14:38,867 INFO 38721 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,878 INFO 38721 [egg:core] dump config after ready, 8ms
+2018-06-01 19:14:38,704 INFO 38724 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,760 INFO 38724 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,760 INFO 38724 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,805 INFO 38724 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,808 INFO 38724 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,808 INFO 38724 [egg-security] use noopen middleware
+2018-06-01 19:14:38,809 INFO 38724 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,809 INFO 38724 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,809 INFO 38724 [egg-security] use xframe middleware
+2018-06-01 19:14:38,810 INFO 38724 [egg-security] use dta middleware
+2018-06-01 19:14:38,810 INFO 38724 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,853 INFO 38724 [egg:core] dump config after load, 9ms
+2018-06-01 19:14:38,916 INFO 38724 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,925 INFO 38724 [egg:core] dump config after ready, 6ms
+2018-06-01 19:14:38,711 INFO 38723 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,761 INFO 38723 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,761 INFO 38723 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,804 INFO 38723 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,807 INFO 38723 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,808 INFO 38723 [egg-security] use noopen middleware
+2018-06-01 19:14:38,808 INFO 38723 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,808 INFO 38723 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,809 INFO 38723 [egg-security] use xframe middleware
+2018-06-01 19:14:38,809 INFO 38723 [egg-security] use dta middleware
+2018-06-01 19:14:38,809 INFO 38723 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,853 INFO 38723 [egg:core] dump config after load, 10ms
+2018-06-01 19:14:38,908 INFO 38723 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,918 INFO 38723 [egg:core] dump config after ready, 7ms
+2018-06-01 19:14:38,752 INFO 38726 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,807 INFO 38726 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,807 INFO 38726 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,854 INFO 38726 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,857 INFO 38726 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,858 INFO 38726 [egg-security] use noopen middleware
+2018-06-01 19:14:38,858 INFO 38726 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,858 INFO 38726 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,859 INFO 38726 [egg-security] use xframe middleware
+2018-06-01 19:14:38,859 INFO 38726 [egg-security] use dta middleware
+2018-06-01 19:14:38,859 INFO 38726 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,912 INFO 38726 [egg:core] dump config after load, 14ms
+2018-06-01 19:14:38,968 INFO 38726 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,977 INFO 38726 [egg:core] dump config after ready, 7ms
+2018-06-01 19:14:38,784 INFO 38720 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:14:38,829 INFO 38720 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:14:38,829 INFO 38720 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:14:38,881 INFO 38720 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:14:38,884 INFO 38720 [egg-security] use methodnoallow middleware
+2018-06-01 19:14:38,885 INFO 38720 [egg-security] use noopen middleware
+2018-06-01 19:14:38,885 INFO 38720 [egg-security] use nosniff middleware
+2018-06-01 19:14:38,885 INFO 38720 [egg-security] use xssProtection middleware
+2018-06-01 19:14:38,886 INFO 38720 [egg-security] use xframe middleware
+2018-06-01 19:14:38,886 INFO 38720 [egg-security] use dta middleware
+2018-06-01 19:14:38,886 INFO 38720 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:14:38,947 INFO 38720 [egg:core] dump config after load, 9ms
+2018-06-01 19:14:38,963 INFO 38720 [egg-watcher:app] watcher start success
+2018-06-01 19:14:38,972 INFO 38720 [egg:core] dump config after ready, 5ms
+2018-06-01 19:21:07,263 INFO 38821 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,332 INFO 38821 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,332 INFO 38821 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,411 INFO 38821 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,414 INFO 38821 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,415 INFO 38821 [egg-security] use noopen middleware
+2018-06-01 19:21:07,415 INFO 38821 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,416 INFO 38821 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,417 INFO 38821 [egg-security] use xframe middleware
+2018-06-01 19:21:07,418 INFO 38821 [egg-security] use dta middleware
+2018-06-01 19:21:07,418 INFO 38821 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,464 INFO 38821 [egg:core] dump config after load, 8ms
+2018-06-01 19:21:07,478 INFO 38821 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,492 INFO 38821 [egg:core] dump config after ready, 10ms
+2018-06-01 19:21:07,227 INFO 38822 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,304 INFO 38822 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,304 INFO 38822 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,378 INFO 38822 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,382 INFO 38822 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,382 INFO 38822 [egg-security] use noopen middleware
+2018-06-01 19:21:07,383 INFO 38822 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,384 INFO 38822 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,384 INFO 38822 [egg-security] use xframe middleware
+2018-06-01 19:21:07,385 INFO 38822 [egg-security] use dta middleware
+2018-06-01 19:21:07,385 INFO 38822 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,449 INFO 38822 [egg:core] dump config after load, 8ms
+2018-06-01 19:21:07,506 INFO 38822 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,516 INFO 38822 [egg:core] dump config after ready, 7ms
+2018-06-01 19:21:07,291 INFO 38827 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,358 INFO 38827 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,358 INFO 38827 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,427 INFO 38827 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,429 INFO 38827 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,430 INFO 38827 [egg-security] use noopen middleware
+2018-06-01 19:21:07,430 INFO 38827 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,430 INFO 38827 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,431 INFO 38827 [egg-security] use xframe middleware
+2018-06-01 19:21:07,431 INFO 38827 [egg-security] use dta middleware
+2018-06-01 19:21:07,431 INFO 38827 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,483 INFO 38827 [egg:core] dump config after load, 8ms
+2018-06-01 19:21:07,501 INFO 38827 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,516 INFO 38827 [egg:core] dump config after ready, 11ms
+2018-06-01 19:21:07,311 INFO 38823 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,368 INFO 38823 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,368 INFO 38823 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,442 INFO 38823 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,446 INFO 38823 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,446 INFO 38823 [egg-security] use noopen middleware
+2018-06-01 19:21:07,447 INFO 38823 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,447 INFO 38823 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,447 INFO 38823 [egg-security] use xframe middleware
+2018-06-01 19:21:07,448 INFO 38823 [egg-security] use dta middleware
+2018-06-01 19:21:07,448 INFO 38823 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,499 INFO 38823 [egg:core] dump config after load, 10ms
+2018-06-01 19:21:07,513 INFO 38823 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,522 INFO 38823 [egg:core] dump config after ready, 7ms
+2018-06-01 19:21:07,328 INFO 38826 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,392 INFO 38826 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,393 INFO 38826 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,467 INFO 38826 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,471 INFO 38826 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,472 INFO 38826 [egg-security] use noopen middleware
+2018-06-01 19:21:07,472 INFO 38826 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,473 INFO 38826 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,474 INFO 38826 [egg-security] use xframe middleware
+2018-06-01 19:21:07,474 INFO 38826 [egg-security] use dta middleware
+2018-06-01 19:21:07,474 INFO 38826 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,530 INFO 38826 [egg:core] dump config after load, 10ms
+2018-06-01 19:21:07,753 INFO 38826 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,784 INFO 38826 [egg:core] dump config after ready, 27ms
+2018-06-01 19:21:07,291 INFO 38824 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,355 INFO 38824 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,355 INFO 38824 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,426 INFO 38824 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,429 INFO 38824 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,430 INFO 38824 [egg-security] use noopen middleware
+2018-06-01 19:21:07,430 INFO 38824 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,430 INFO 38824 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,431 INFO 38824 [egg-security] use xframe middleware
+2018-06-01 19:21:07,431 INFO 38824 [egg-security] use dta middleware
+2018-06-01 19:21:07,431 INFO 38824 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,482 INFO 38824 [egg:core] dump config after load, 9ms
+2018-06-01 19:21:07,596 INFO 38824 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,625 INFO 38824 [egg:core] dump config after ready, 16ms
+2018-06-01 19:21:07,322 INFO 38825 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,401 INFO 38825 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,401 INFO 38825 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,455 INFO 38825 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,460 INFO 38825 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,461 INFO 38825 [egg-security] use noopen middleware
+2018-06-01 19:21:07,462 INFO 38825 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,462 INFO 38825 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,463 INFO 38825 [egg-security] use xframe middleware
+2018-06-01 19:21:07,463 INFO 38825 [egg-security] use dta middleware
+2018-06-01 19:21:07,463 INFO 38825 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,517 INFO 38825 [egg:core] dump config after load, 11ms
+2018-06-01 19:21:07,788 INFO 38825 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,815 INFO 38825 [egg:core] dump config after ready, 23ms
+2018-06-01 19:21:07,245 INFO 38820 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:07,312 INFO 38820 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:07,312 INFO 38820 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:07,381 INFO 38820 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:07,384 INFO 38820 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:07,385 INFO 38820 [egg-security] use noopen middleware
+2018-06-01 19:21:07,386 INFO 38820 [egg-security] use nosniff middleware
+2018-06-01 19:21:07,387 INFO 38820 [egg-security] use xssProtection middleware
+2018-06-01 19:21:07,387 INFO 38820 [egg-security] use xframe middleware
+2018-06-01 19:21:07,388 INFO 38820 [egg-security] use dta middleware
+2018-06-01 19:21:07,388 INFO 38820 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:07,449 INFO 38820 [egg:core] dump config after load, 8ms
+2018-06-01 19:21:07,507 INFO 38820 [egg-watcher:app] watcher start success
+2018-06-01 19:21:07,517 INFO 38820 [egg:core] dump config after ready, 7ms
+2018-06-01 19:21:09,499 INFO 38835 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,553 INFO 38835 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,553 INFO 38835 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,627 INFO 38835 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,631 INFO 38835 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,632 INFO 38835 [egg-security] use noopen middleware
+2018-06-01 19:21:09,632 INFO 38835 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,633 INFO 38835 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,633 INFO 38835 [egg-security] use xframe middleware
+2018-06-01 19:21:09,635 INFO 38835 [egg-security] use dta middleware
+2018-06-01 19:21:09,635 INFO 38835 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,695 INFO 38835 [egg:core] dump config after load, 12ms
+2018-06-01 19:21:09,715 INFO 38835 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,725 INFO 38835 [egg:core] dump config after ready, 6ms
+2018-06-01 19:21:09,499 INFO 38838 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,551 INFO 38838 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,551 INFO 38838 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,628 INFO 38838 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,633 INFO 38838 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,633 INFO 38838 [egg-security] use noopen middleware
+2018-06-01 19:21:09,634 INFO 38838 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,634 INFO 38838 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,635 INFO 38838 [egg-security] use xframe middleware
+2018-06-01 19:21:09,635 INFO 38838 [egg-security] use dta middleware
+2018-06-01 19:21:09,635 INFO 38838 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,692 INFO 38838 [egg:core] dump config after load, 10ms
+2018-06-01 19:21:09,715 INFO 38838 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,729 INFO 38838 [egg:core] dump config after ready, 10ms
+2018-06-01 19:21:09,498 INFO 38837 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,551 INFO 38837 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,551 INFO 38837 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,628 INFO 38837 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,635 INFO 38837 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,635 INFO 38837 [egg-security] use noopen middleware
+2018-06-01 19:21:09,635 INFO 38837 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,636 INFO 38837 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,636 INFO 38837 [egg-security] use xframe middleware
+2018-06-01 19:21:09,636 INFO 38837 [egg-security] use dta middleware
+2018-06-01 19:21:09,636 INFO 38837 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,692 INFO 38837 [egg:core] dump config after load, 13ms
+2018-06-01 19:21:09,709 INFO 38837 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,727 INFO 38837 [egg:core] dump config after ready, 15ms
+2018-06-01 19:21:09,506 INFO 38836 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,559 INFO 38836 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,559 INFO 38836 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,635 INFO 38836 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,639 INFO 38836 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,639 INFO 38836 [egg-security] use noopen middleware
+2018-06-01 19:21:09,640 INFO 38836 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,640 INFO 38836 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,640 INFO 38836 [egg-security] use xframe middleware
+2018-06-01 19:21:09,641 INFO 38836 [egg-security] use dta middleware
+2018-06-01 19:21:09,641 INFO 38836 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,705 INFO 38836 [egg:core] dump config after load, 20ms
+2018-06-01 19:21:09,721 INFO 38836 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,735 INFO 38836 [egg:core] dump config after ready, 12ms
+2018-06-01 19:21:09,518 INFO 38840 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,584 INFO 38840 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,584 INFO 38840 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,645 INFO 38840 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,649 INFO 38840 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,649 INFO 38840 [egg-security] use noopen middleware
+2018-06-01 19:21:09,650 INFO 38840 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,650 INFO 38840 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,651 INFO 38840 [egg-security] use xframe middleware
+2018-06-01 19:21:09,651 INFO 38840 [egg-security] use dta middleware
+2018-06-01 19:21:09,652 INFO 38840 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,713 INFO 38840 [egg:core] dump config after load, 18ms
+2018-06-01 19:21:09,738 INFO 38840 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,752 INFO 38840 [egg:core] dump config after ready, 12ms
+2018-06-01 19:21:09,519 INFO 38839 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,578 INFO 38839 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,578 INFO 38839 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,650 INFO 38839 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,656 INFO 38839 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,657 INFO 38839 [egg-security] use noopen middleware
+2018-06-01 19:21:09,657 INFO 38839 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,657 INFO 38839 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,658 INFO 38839 [egg-security] use xframe middleware
+2018-06-01 19:21:09,658 INFO 38839 [egg-security] use dta middleware
+2018-06-01 19:21:09,658 INFO 38839 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,722 INFO 38839 [egg:core] dump config after load, 19ms
+2018-06-01 19:21:09,741 INFO 38839 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,756 INFO 38839 [egg:core] dump config after ready, 12ms
+2018-06-01 19:21:09,526 INFO 38842 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,592 INFO 38842 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,592 INFO 38842 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,663 INFO 38842 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,666 INFO 38842 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,666 INFO 38842 [egg-security] use noopen middleware
+2018-06-01 19:21:09,667 INFO 38842 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,667 INFO 38842 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,668 INFO 38842 [egg-security] use xframe middleware
+2018-06-01 19:21:09,668 INFO 38842 [egg-security] use dta middleware
+2018-06-01 19:21:09,668 INFO 38842 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,738 INFO 38842 [egg:core] dump config after load, 20ms
+2018-06-01 19:21:09,760 INFO 38842 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,769 INFO 38842 [egg:core] dump config after ready, 6ms
+2018-06-01 19:21:09,526 INFO 38841 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:09,593 INFO 38841 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:09,593 INFO 38841 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:09,663 INFO 38841 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:09,667 INFO 38841 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:09,667 INFO 38841 [egg-security] use noopen middleware
+2018-06-01 19:21:09,668 INFO 38841 [egg-security] use nosniff middleware
+2018-06-01 19:21:09,668 INFO 38841 [egg-security] use xssProtection middleware
+2018-06-01 19:21:09,668 INFO 38841 [egg-security] use xframe middleware
+2018-06-01 19:21:09,669 INFO 38841 [egg-security] use dta middleware
+2018-06-01 19:21:09,669 INFO 38841 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:09,728 INFO 38841 [egg:core] dump config after load, 16ms
+2018-06-01 19:21:09,754 INFO 38841 [egg-watcher:app] watcher start success
+2018-06-01 19:21:09,763 INFO 38841 [egg:core] dump config after ready, 7ms
+2018-06-01 19:21:14,944 INFO 38856 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,007 INFO 38856 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,007 INFO 38856 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,058 INFO 38856 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,061 INFO 38856 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,061 INFO 38856 [egg-security] use noopen middleware
+2018-06-01 19:21:15,061 INFO 38856 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,062 INFO 38856 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,062 INFO 38856 [egg-security] use xframe middleware
+2018-06-01 19:21:15,062 INFO 38856 [egg-security] use dta middleware
+2018-06-01 19:21:15,062 INFO 38856 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,109 INFO 38856 [egg:core] dump config after load, 9ms
+2018-06-01 19:21:15,166 INFO 38856 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,199 INFO 38856 [egg:core] dump config after ready, 16ms
+2018-06-01 19:21:14,948 INFO 38854 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,014 INFO 38854 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,014 INFO 38854 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,067 INFO 38854 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,069 INFO 38854 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,070 INFO 38854 [egg-security] use noopen middleware
+2018-06-01 19:21:15,070 INFO 38854 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,071 INFO 38854 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,071 INFO 38854 [egg-security] use xframe middleware
+2018-06-01 19:21:15,071 INFO 38854 [egg-security] use dta middleware
+2018-06-01 19:21:15,071 INFO 38854 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,123 INFO 38854 [egg:core] dump config after load, 13ms
+2018-06-01 19:21:15,189 INFO 38854 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,232 INFO 38854 [egg:core] dump config after ready, 21ms
+2018-06-01 19:21:14,949 INFO 38851 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,003 INFO 38851 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,003 INFO 38851 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,064 INFO 38851 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,067 INFO 38851 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,067 INFO 38851 [egg-security] use noopen middleware
+2018-06-01 19:21:15,068 INFO 38851 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,068 INFO 38851 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,068 INFO 38851 [egg-security] use xframe middleware
+2018-06-01 19:21:15,069 INFO 38851 [egg-security] use dta middleware
+2018-06-01 19:21:15,069 INFO 38851 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,119 INFO 38851 [egg:core] dump config after load, 14ms
+2018-06-01 19:21:15,186 INFO 38851 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,233 INFO 38851 [egg:core] dump config after ready, 28ms
+2018-06-01 19:21:14,964 INFO 38852 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,024 INFO 38852 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,024 INFO 38852 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,073 INFO 38852 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,077 INFO 38852 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,077 INFO 38852 [egg-security] use noopen middleware
+2018-06-01 19:21:15,078 INFO 38852 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,079 INFO 38852 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,080 INFO 38852 [egg-security] use xframe middleware
+2018-06-01 19:21:15,080 INFO 38852 [egg-security] use dta middleware
+2018-06-01 19:21:15,080 INFO 38852 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,129 INFO 38852 [egg:core] dump config after load, 13ms
+2018-06-01 19:21:15,218 INFO 38852 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,235 INFO 38852 [egg:core] dump config after ready, 12ms
+2018-06-01 19:21:14,971 INFO 38855 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,034 INFO 38855 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,034 INFO 38855 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,085 INFO 38855 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,088 INFO 38855 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,089 INFO 38855 [egg-security] use noopen middleware
+2018-06-01 19:21:15,089 INFO 38855 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,089 INFO 38855 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,090 INFO 38855 [egg-security] use xframe middleware
+2018-06-01 19:21:15,090 INFO 38855 [egg-security] use dta middleware
+2018-06-01 19:21:15,090 INFO 38855 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,141 INFO 38855 [egg:core] dump config after load, 12ms
+2018-06-01 19:21:15,228 INFO 38855 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,255 INFO 38855 [egg:core] dump config after ready, 24ms
+2018-06-01 19:21:14,976 INFO 38853 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,044 INFO 38853 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,044 INFO 38853 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,091 INFO 38853 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,094 INFO 38853 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,095 INFO 38853 [egg-security] use noopen middleware
+2018-06-01 19:21:15,095 INFO 38853 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,096 INFO 38853 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,096 INFO 38853 [egg-security] use xframe middleware
+2018-06-01 19:21:15,096 INFO 38853 [egg-security] use dta middleware
+2018-06-01 19:21:15,096 INFO 38853 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,145 INFO 38853 [egg:core] dump config after load, 11ms
+2018-06-01 19:21:15,262 INFO 38853 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,272 INFO 38853 [egg:core] dump config after ready, 8ms
+2018-06-01 19:21:14,978 INFO 38857 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,047 INFO 38857 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,047 INFO 38857 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,092 INFO 38857 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,095 INFO 38857 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,095 INFO 38857 [egg-security] use noopen middleware
+2018-06-01 19:21:15,095 INFO 38857 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,097 INFO 38857 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,097 INFO 38857 [egg-security] use xframe middleware
+2018-06-01 19:21:15,098 INFO 38857 [egg-security] use dta middleware
+2018-06-01 19:21:15,098 INFO 38857 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,147 INFO 38857 [egg:core] dump config after load, 11ms
+2018-06-01 19:21:15,253 INFO 38857 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,264 INFO 38857 [egg:core] dump config after ready, 8ms
+2018-06-01 19:21:14,986 INFO 38858 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:21:15,048 INFO 38858 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:21:15,049 INFO 38858 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:21:15,095 INFO 38858 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:21:15,098 INFO 38858 [egg-security] use methodnoallow middleware
+2018-06-01 19:21:15,098 INFO 38858 [egg-security] use noopen middleware
+2018-06-01 19:21:15,098 INFO 38858 [egg-security] use nosniff middleware
+2018-06-01 19:21:15,099 INFO 38858 [egg-security] use xssProtection middleware
+2018-06-01 19:21:15,099 INFO 38858 [egg-security] use xframe middleware
+2018-06-01 19:21:15,099 INFO 38858 [egg-security] use dta middleware
+2018-06-01 19:21:15,099 INFO 38858 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:21:15,158 INFO 38858 [egg:core] dump config after load, 20ms
+2018-06-01 19:21:15,265 INFO 38858 [egg-watcher:app] watcher start success
+2018-06-01 19:21:15,276 INFO 38858 [egg:core] dump config after ready, 8ms
+2018-06-01 19:22:04,055 INFO 38881 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,118 INFO 38881 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,118 INFO 38881 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,181 INFO 38881 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,183 INFO 38881 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,184 INFO 38881 [egg-security] use noopen middleware
+2018-06-01 19:22:04,184 INFO 38881 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,184 INFO 38881 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,185 INFO 38881 [egg-security] use xframe middleware
+2018-06-01 19:22:04,185 INFO 38881 [egg-security] use dta middleware
+2018-06-01 19:22:04,185 INFO 38881 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,237 INFO 38881 [egg:core] dump config after load, 9ms
+2018-06-01 19:22:04,303 INFO 38881 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,314 INFO 38881 [egg:core] dump config after ready, 7ms
+2018-06-01 19:22:04,054 INFO 38880 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,108 INFO 38880 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,108 INFO 38880 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,177 INFO 38880 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,180 INFO 38880 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,181 INFO 38880 [egg-security] use noopen middleware
+2018-06-01 19:22:04,181 INFO 38880 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,181 INFO 38880 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,182 INFO 38880 [egg-security] use xframe middleware
+2018-06-01 19:22:04,183 INFO 38880 [egg-security] use dta middleware
+2018-06-01 19:22:04,183 INFO 38880 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,237 INFO 38880 [egg:core] dump config after load, 9ms
+2018-06-01 19:22:04,295 INFO 38880 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,308 INFO 38880 [egg:core] dump config after ready, 6ms
+2018-06-01 19:22:04,055 INFO 38883 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,112 INFO 38883 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,113 INFO 38883 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,180 INFO 38883 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,183 INFO 38883 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,183 INFO 38883 [egg-security] use noopen middleware
+2018-06-01 19:22:04,184 INFO 38883 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,184 INFO 38883 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,184 INFO 38883 [egg-security] use xframe middleware
+2018-06-01 19:22:04,184 INFO 38883 [egg-security] use dta middleware
+2018-06-01 19:22:04,185 INFO 38883 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,237 INFO 38883 [egg:core] dump config after load, 9ms
+2018-06-01 19:22:04,250 INFO 38883 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,259 INFO 38883 [egg:core] dump config after ready, 6ms
+2018-06-01 19:22:04,054 INFO 38879 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,108 INFO 38879 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,108 INFO 38879 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,177 INFO 38879 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,180 INFO 38879 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,180 INFO 38879 [egg-security] use noopen middleware
+2018-06-01 19:22:04,181 INFO 38879 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,181 INFO 38879 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,182 INFO 38879 [egg-security] use xframe middleware
+2018-06-01 19:22:04,183 INFO 38879 [egg-security] use dta middleware
+2018-06-01 19:22:04,183 INFO 38879 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,236 INFO 38879 [egg:core] dump config after load, 9ms
+2018-06-01 19:22:04,298 INFO 38879 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,311 INFO 38879 [egg:core] dump config after ready, 8ms
+2018-06-01 19:22:04,057 INFO 38877 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,126 INFO 38877 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,126 INFO 38877 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,179 INFO 38877 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,182 INFO 38877 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,182 INFO 38877 [egg-security] use noopen middleware
+2018-06-01 19:22:04,182 INFO 38877 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,183 INFO 38877 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,183 INFO 38877 [egg-security] use xframe middleware
+2018-06-01 19:22:04,183 INFO 38877 [egg-security] use dta middleware
+2018-06-01 19:22:04,183 INFO 38877 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,238 INFO 38877 [egg:core] dump config after load, 10ms
+2018-06-01 19:22:04,312 INFO 38877 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,320 INFO 38877 [egg:core] dump config after ready, 6ms
+2018-06-01 19:22:04,057 INFO 38884 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,119 INFO 38884 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,120 INFO 38884 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,178 INFO 38884 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,181 INFO 38884 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,182 INFO 38884 [egg-security] use noopen middleware
+2018-06-01 19:22:04,182 INFO 38884 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,182 INFO 38884 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,183 INFO 38884 [egg-security] use xframe middleware
+2018-06-01 19:22:04,183 INFO 38884 [egg-security] use dta middleware
+2018-06-01 19:22:04,183 INFO 38884 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,237 INFO 38884 [egg:core] dump config after load, 10ms
+2018-06-01 19:22:04,296 INFO 38884 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,305 INFO 38884 [egg:core] dump config after ready, 6ms
+2018-06-01 19:22:04,063 INFO 38878 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,120 INFO 38878 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,120 INFO 38878 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,178 INFO 38878 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,180 INFO 38878 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,181 INFO 38878 [egg-security] use noopen middleware
+2018-06-01 19:22:04,181 INFO 38878 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,182 INFO 38878 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,182 INFO 38878 [egg-security] use xframe middleware
+2018-06-01 19:22:04,183 INFO 38878 [egg-security] use dta middleware
+2018-06-01 19:22:04,183 INFO 38878 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,237 INFO 38878 [egg:core] dump config after load, 9ms
+2018-06-01 19:22:04,299 INFO 38878 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,307 INFO 38878 [egg:core] dump config after ready, 5ms
+2018-06-01 19:22:04,066 INFO 38882 [egg:logger] init all loggers with options: {"dir":"/Users/wuyun/work/test/test-egg-react2/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"image-bed-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-01 19:22:04,124 INFO 38882 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-06-01 19:22:04,124 INFO 38882 [egg-schedule]: register schedule /Users/wuyun/work/test/test-egg-react2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-06-01 19:22:04,182 INFO 38882 [egg-static] starting static serve /public/ -> /Users/wuyun/work/test/test-egg-react2/public
+2018-06-01 19:22:04,184 INFO 38882 [egg-security] use methodnoallow middleware
+2018-06-01 19:22:04,185 INFO 38882 [egg-security] use noopen middleware
+2018-06-01 19:22:04,185 INFO 38882 [egg-security] use nosniff middleware
+2018-06-01 19:22:04,185 INFO 38882 [egg-security] use xssProtection middleware
+2018-06-01 19:22:04,186 INFO 38882 [egg-security] use xframe middleware
+2018-06-01 19:22:04,186 INFO 38882 [egg-security] use dta middleware
+2018-06-01 19:22:04,186 INFO 38882 [egg-security] compose 6 middlewares into one security middleware
+2018-06-01 19:22:04,237 INFO 38882 [egg:core] dump config after load, 10ms
+2018-06-01 19:22:04,305 INFO 38882 [egg-watcher:app] watcher start success
+2018-06-01 19:22:04,315 INFO 38882 [egg:core] dump config after ready, 8ms
