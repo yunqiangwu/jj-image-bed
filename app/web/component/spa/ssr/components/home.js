@@ -88,7 +88,7 @@ class Home extends Component {
     };
 
     return (<div className="redux-nav-item">
-      <h3 style={{ marginTop: 8 }}>简图床</h3>
+      <h3 style={{ marginTop: 8 }}>简易图床</h3>
       {/* <Divider /> */}
       <Dragger {...draggerProps}>
         <p className="ant-upload-drag-icon">

@@ -5,7 +5,7 @@ export default class About extends Component {
     return (
       <div style={{ margin: 16 }}>
         <ul>
-          <li>简图床</li>
+          <li>简易图床</li>
         </ul>
       </div>
     );
