@@ -12,6 +12,9 @@ const defaultOptions = {
   prefix: 'default_pic'
 };
 
+/**
+ * 七牛云操作对象
+ */
 class QiniuHelper {
   constructor(_options) {
     const options = Object.assign({}, defaultOptions, _options);
@@ -142,7 +145,7 @@ class QiniuHelper {
    */
   listPrefix({
     prefix = this._options.prefix,
-    pageSize = 10,
+    pageSize = 100,
     offset
   } = {}) {
     const bucketManager = this.getBucketManager();

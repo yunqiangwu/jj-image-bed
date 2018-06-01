@@ -845,7 +845,7 @@
     "pkg": {
       "name": "image-bed",
       "version": "1.0.1",
-      "description": "简简图床",
+      "description": "简易图床",
       "scripts": {
         "build": "cross-env easywebpack build prod",
         "build:test": "cross-env easywebpack build test",

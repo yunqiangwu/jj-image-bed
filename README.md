@@ -6,6 +6,7 @@ date: 2018-5-20
 
 > Github: https://github.com/yunqiangwu/jj-image-bed.git
 
+基于Webpack工程化解决方案[easywebpack](https://zhuanlan.zhihu.com/p/28322014)构建项目  
 基于 Egg + React + Webpack3 + 七牛云存储 单页面服务端渲染同构工程图床`Demo`项目
 
 - Egg 版本： ^2.x.x
