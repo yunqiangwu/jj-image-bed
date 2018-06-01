@@ -88,7 +88,7 @@ class Home extends Component {
     };
 
     return (<div className="redux-nav-item">
-      <h3 style={{ marginTop: 8 }}>简简图床</h3>
+      <h3 style={{ marginTop: 8 }}>简图床</h3>
       {/* <Divider /> */}
       <Dragger {...draggerProps}>
         <p className="ant-upload-drag-icon">
@@ -97,6 +97,7 @@ class Home extends Component {
         <p className="ant-upload-text">拖拽图片到这里上传</p>
         <p className="ant-upload-hint" />
       </Dragger>
+      <Divider />      
       <div className="container">
         <div className="row row-offcanvas row-offcanvas-right">
           <div className="col-xs-12 col-sm-9">
@@ -105,7 +106,7 @@ class Home extends Component {
                 this.state.list.map((item, index) => {
                   return (
                     <div key={item.url} className="img-box">
-                      <img onClick={()=>this.handlePreview(item)} src={item.url} alt={item.name} />
+                      <img onClick={()=>this.handlePreview(item)} width={200} src={item.url} alt={item.name} />
                       <div>
                         <Input value={item.url} readOnly suffix={(
                           <Icon type='delete' onClick={()=>this.handleDelete(item)}/>                        
