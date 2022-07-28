@@ -56,14 +56,14 @@ git clone https://github.com/yunqiangwu/jj-image-bed.git
 ##### 安装依赖
 
 ```bash
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 ##### 启动应用
 
 ```bash
-npm start
+yarn start
 ```
 
 应用访问: http://127.0.0.1:7001
@@ -75,10 +75,10 @@ npm start
 
 ```bash
 // 直接运行(编译文件全部在内存里面,本地开发使用)
-npm start
+yarn start
 
 // 编译文件到磁盘打包使用(发布正式环境)
-npm run build 或者 easywebpack build prod
+yarn run build 或者 easywebpack build prod
 ```
 
 ##### 项目截图
