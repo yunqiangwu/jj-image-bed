@@ -8,6 +8,10 @@ module.exports = {
     ssr: 'app/web/page/ssr/ssr.jsx',
     layout: 'app/web/framework/layout/layout.jsx'
   },
+  fileHash: false,
+  // output: {
+  //   filename: '[name].js'
+  // },
   alias: {
     asset: 'app/web/asset',
     component: 'app/web/component',

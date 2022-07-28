@@ -24,3 +24,7 @@ npm-debug.log*
 /run
 *.tar.gz
 /*.log
+
+/config/manifest.json
+
+/app/view/*.js
